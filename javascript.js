@@ -55,10 +55,26 @@
       .fm-crafting-window{width:min(1040px,96vw);max-height:94vh;padding:15px 20px}.fm-craft-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.fm-craft-head button{border:2px solid #777;padding:4px 12px;background:#ddd}.fm-craft-layout{display:flex;gap:14px;align-items:stretch;justify-content:center}.fm-player-panel{min-width:0;flex:1}.fm-recipe-panel{flex-direction:column;min-width:210px;width:min(290px,32vw);padding:10px;background:#bababa;border:3px solid #888;gap:8px}.fm-recipe-panel input{width:100%;padding:8px;background:#eee;border:2px solid #777;color:#111}.fm-recipes{overflow:auto;max-height:440px;display:grid;align-content:start;gap:4px}.fm-recipe-entry{display:flex;align-items:center;gap:8px;min-width:0;text-align:left;background:#8b8b8b;color:#444;border:2px solid #777;padding:5px;cursor:pointer}.fm-recipe-entry.can-craft{background:#91bd84;color:#214920;border-color:#52774d}.fm-recipe-entry:hover{filter:brightness(1.10)}.fm-recipe-entry small{display:block;font-size:10px;line-height:1.3;overflow-wrap:anywhere}.fm-recipe-entry b{font-size:12px}.fm-recipe-entry .fm-item-icon{flex:0 0 30px;height:30px}.fm-craft-upper{display:grid;grid-template-columns:minmax(175px,1fr) minmax(210px,1fr);gap:16px;align-items:start;margin:0 0 18px}.fm-equipment-panel{display:flex;gap:9px;align-items:center}.fm-armour-slots{display:grid;grid-template-columns:repeat(2,36px);gap:3px}.fm-armour-slots .fm-inv-slot{width:36px;height:36px}.fm-paper-doll{position:relative;flex:1;min-width:75px;max-width:120px;height:166px;background:linear-gradient(#5558,#5553);border:3px inset #aaa}.fm-paper-doll div{position:absolute;border:2px solid #555;box-shadow:inset -5px -5px #0002}.fm-doll-head{left:36%;top:13px;width:30%;height:30px}.fm-doll-body{left:33%;top:45px;width:34%;height:51px}.fm-doll-leftarm{left:17%;top:45px;width:16%;height:52px}.fm-doll-rightarm{right:17%;top:45px;width:16%;height:52px}.fm-doll-leftleg{left:33%;top:96px;width:16%;height:52px}.fm-doll-rightleg{right:33%;top:96px;width:16%;height:52px}.fm-doll-name{position:absolute;bottom:2px;left:0;right:0;text-align:center;font-size:11px;white-space:nowrap;overflow:hidden}.fm-craft-title{display:flex;align-items:center;justify-content:space-between;gap:12px}.fm-book-toggle{font-size:20px;padding:2px 6px;background:#a2a2a2;border:3px solid #eee;box-shadow:2px 2px #555}.fm-book-toggle.active{background:#8ebe82}.fm-craft-row{display:flex;align-items:center;gap:6px;margin:14px 0}.fm-craft-grid{display:grid;gap:3px;flex-shrink:0}.fm-craft-grid .fm-craft-cell{width:40px;height:40px;padding:0}.fm-craft-output{width:48px;height:48px;margin:0;flex-shrink:0;position:relative}.fm-arrow{font-size:25px}.fm-mini-craft{font-size:12px!important;padding:7px!important}.fm-mini-craft:disabled{opacity:.45}.fm-section-title{display:block;margin:9px 0 5px}.fm-inv-help{font-size:10px;color:#555;margin-top:10px}.fm-inventory button{color:#222}.fm-inventory .fm-craft-output:disabled{opacity:.65}
       @media(max-width:750px){.fm-craft-layout{flex-direction:column}.fm-recipe-panel{width:100%;max-height:180px}.fm-recipes{max-height:125px}.fm-craft-upper{grid-template-columns:1fr 1fr}.fm-paper-doll{max-width:92px}}
       @media(max-width:650px){.fm-logo{font-size:36px}.fm-slot{width:34px;height:38px}.fm-slot.selected{width:38px;height:42px}.fm-hotbar{gap:2px}.fm-heart{width:15px;height:15px}.fm-inventory{padding:10px}.fm-inv-grid{gap:2px}}
+
+      .fm-box{border:1px solid #83ac88;border-radius:13px;background:linear-gradient(150deg,#1b3027ef,#101b18f5);box-shadow:0 24px 75px #000c,inset 0 1px #ffffff20;padding:25px}
+      .fm-logo{letter-spacing:1.5px;text-shadow:0 4px 0 #142619,0 10px 30px #4abd7b4a}
+      .fm-button{border:1px solid #2c6e35;border-radius:9px;padding:12px 15px;box-shadow:inset 0 1px #ffffff4c,0 4px 0 #224522;transition:filter .14s,transform .14s;background:linear-gradient(#65b751,#3f8939)}
+      .fm-button:hover{filter:brightness(1.13);transform:translateY(-1px)}.fm-button:active{transform:translateY(2px);box-shadow:inset 0 1px #ffffff33,0 1px #244421}
+      .fm-secondary{background:linear-gradient(#687b73,#475e55);border-color:#788a7d;box-shadow:inset 0 1px #ffffff22,0 4px #2a3c34}
+      .fm-input{border-radius:8px;border:1px solid #9caf98;background:#e6eee6;color:#23342b;outline:none}.fm-input:focus{box-shadow:0 0 0 3px #69bd65a3;border-color:#6abf62}
+      select.fm-input{cursor:pointer}input[type=range].fm-input{padding:7px;accent-color:#70bc59}
+      .fm-overlay .fm-inventory{border-radius:13px;box-shadow:0 22px 70px #0009}.fm-recipe-entry{border-radius:6px}
+      .fm-party-status{display:flex;align-items:center;justify-content:space-between;background:#243b2e9c;border:1px solid #6d927a;border-radius:9px;padding:9px 11px;gap:9px}
+      .fm-party-avatar{display:inline-flex;align-items:center;justify-content:center;border-radius:100%;border:2px solid #9cbda2;background:linear-gradient(#77a1ba,#435c93);color:#fff;font-weight:800;width:28px;height:28px;font-size:12px;margin-left:-6px;box-shadow:0 2px 6px #0007}
+      .fm-chest-ui{border-radius:12px;box-shadow:0 20px 55px #000a;background:#c6c4bf}.fm-chest-ui .fm-inv-slot{border-radius:3px}.fm-chest-close{color:#202020;background:#eee;border:2px solid #666;border-radius:6px;padding:4px 12px}
+      .fm-deathscreen{position:absolute;inset:0;z-index:500;display:none;flex-direction:column;justify-content:center;align-items:center;gap:22px;background:#3b000069;backdrop-filter:blur(9px) brightness(.65);color:white;text-align:center}
+      .fm-deathscreen h1{font-size:clamp(40px,8vw,74px);margin:0;text-shadow:3px 5px #340f11;font-weight:900}.fm-deathscreen p{font-size:clamp(15px,3vw,22px);margin:0;text-shadow:1px 2px #111}
+      .fm-deathscreen .fm-button{max-width:300px}
+      @media(max-width:680px){.fm-box{padding:16px}.fm-button{padding:11px}.fm-party-status{padding:7px}}
     `;
     ROOT.appendChild(style);
 
-    // FeatherMC v14: queued chunk streaming, IndexedDB account/world persistence, parties.
+    // FeatherMC v16: account settings, biome-style clouds, blocky far terrain, live chests, death screen.
     // -------------------- data and runtime state --------------------
     const items = {
       bedrock:['Bedrock','#252525'], grass:['Grass Block','#55a63c'], dirt:['Dirt','#79502b'], stone:['Stone','#888888'],
@@ -74,7 +90,7 @@
       iron_helmet:['Iron Helmet','#c7cbd0'], iron_chestplate:['Iron Chestplate','#c7cbd0'], iron_leggings:['Iron Leggings','#c7cbd0'], iron_boots:['Iron Boots','#c7cbd0'],
       diamond_helmet:['Diamond Helmet','#4bd3d1'], diamond_chestplate:['Diamond Chestplate','#4bd3d1'], diamond_leggings:['Diamond Leggings','#4bd3d1'], diamond_boots:['Diamond Boots','#4bd3d1'],
       red_bed:['Red Bed','#af3838'],white_wool:['White Wool','#ecece6'],tnt:['TNT','#c93c35'],gunpowder:['Gunpowder','#353d36'],flint:['Flint','#454c51'],flint_and_steel:['Flint and Steel','#b5bdc3'],gravel:['Gravel','#898681'],glass:['Glass','#c2edf4'],cobblestone:['Cobblestone','#787878'],oak_button:['Oak Button','#aa7542'],oak_pressure_plate:['Oak Pressure Plate','#b48d5a'],oak_slab:['Oak Slab','#ae804f'],oak_stairs:['Oak Stairs','#b58c54'],ladder:['Ladder','#bd995c'],oak_fence:['Oak Fence','#ae7f49'],oak_door:['Oak Door','#a57842'],stone_sword:['Stone Sword','#929292'],redstone:['Redstone Dust','#a7222c'],bone:['Bone','#d7d0bd'],string:['String','#dbdbd6'],bow:['Bow','#805b30'],arrow:['Arrow','#aeb4aa'],shield:['Shield','#967142'],iron_block:['Block of Iron','#c5c9c9'],diamond_block:['Block of Diamond','#53d4c7'],coal_block:['Block of Coal','#252525'],
-      raw_porkchop:['Raw Porkchop','#d77a79'], cooked_porkchop:['Cooked Porkchop','#9d5142'], raw_beef:['Raw Beef','#c87868'], cooked_beef:['Cooked Beef','#995444'], raw_chicken:['Raw Chicken','#d6b6a0'], cooked_chicken:['Cooked Chicken','#c28b43'], feather:['Feather','#eeeeea'], leather:['Leather','#9b6844'], water:['Water','#3b85e8'], lava:['Lava','#ff641c'], bucket:['Bucket','#bfc5ca'], water_bucket:['Water Bucket','#3985e5'], lava_bucket:['Lava Bucket','#f46a23'], torch:['Torch','#e9b34a'], chest:['Chest','#a66b32']
+      raw_porkchop:['Raw Porkchop','#d77a79'], cooked_porkchop:['Cooked Porkchop','#9d5142'], raw_beef:['Raw Beef','#c87868'], cooked_beef:['Cooked Beef','#995444'], raw_chicken:['Raw Chicken','#d6b6a0'], cooked_chicken:['Cooked Chicken','#c28b43'], feather:['Feather','#eeeeea'], leather:['Leather','#9b6844'], water:['Water','#3b85e8'], lava:['Lava','#ff641c'], bucket:['Bucket','#bfc5ca'], water_bucket:['Water Bucket','#3985e5'], lava_bucket:['Lava Bucket','#f46a23'], torch:['Torch','#e9b34a'], chest:['Chest','#a66b32'], apple:['Apple','#d44334'], golden_apple:['Golden Apple','#e9b82c'], enchanted_golden_apple:['Enchanted Golden Apple','#dd99e9'], gold_ingot:['Gold Ingot','#e9c343'], emerald:['Emerald','#38cc70']
     };
     const placeable = ['bedrock','grass','dirt','stone','oak_log','oak_leaves','sand','oak_planks','sandstone','red_sandstone','crafting_table','furnace','coal_ore','iron_ore','diamond_ore','chest','water','lava','torch','red_bed','white_wool','tnt','gravel','glass','cobblestone','oak_button','oak_pressure_plate','oak_slab','oak_stairs','ladder','oak_fence','oak_door','iron_block','diamond_block','coal_block'];
     const avatars = {
@@ -84,7 +100,7 @@
     let running=false,paused=false,inventoryOpen=false,chatOpen=false,isHost=false;
     let peer=null,hostConn=null,roomCode='',networkHostId='',playerId='local',playerName='Falleen',avatarChoice='Steve',avatarAppearance={shirt:0x2464c4,pants:0x303b75,skin:0xe0aa78,cape:null};
     let worldName='My World',seed='12345',seedHash=1;
-    let difficulty='Normal',mobsEnabled=true,pvpEnabled=false,chatEnabled=true,keepInventory=false,playerSleeping=false,lastDeathCause='generic',lastDeathAttacker='',openWorkbench=false;
+    let difficulty='Normal',mobsEnabled=true,pvpEnabled=false,chatEnabled=true,keepInventory=false,playerSleeping=false,lastDeathCause='generic',lastDeathAttacker='',openWorkbench=false,deathPending=false,deathRespawnTarget=null;
     let renderDistance=1,fov=75,sensitivity=1,quality='Low',weather='Clear',dayLength=600,worldTime=0.27,gameMode='Survival';
     let firstPerson=true,cameraDistance=7,yaw=0,pitch=.12,velocityY=0,grounded=false,walking=0;
     let hp=20,lastHp=20,hunger=20,lastHunger=20,foodTimer=0,starveTimer=0,attackCharge=1,attackCooldown=0,attackAnim=0,placeAnim=0,mineSwingPhase=0,eatAnim=0,miningKey=null,miningProgress=0,placeCooldown=0,pendingMine=null,pendingMineAt=0;
@@ -92,6 +108,17 @@
     let fallPeakY=0,dropCounter=1,lavaDamageTimer=0,oxygen=15,drownTimer=0,regenTimer=0,hitTintTimer=0,knockbackX=0,knockbackZ=0;
     const droppedItems=new Map();
     let roleById=new Set(),chestInventories=new Map(),openChestKey=null,offhand=null,armour={head:null,chest:null,legs:null,feet:null};
+    const chestVersions=new Map(),chestLastAction=new Map();let chestActionSeq=0,chestPending=null;
+    const cloneStack=v=>v&&items[v.id]&&Number.isInteger(v.count)&&v.count>0?{id:v.id,count:Math.min(maxStack(v.id),v.count)}:null;
+    const validChestStack=v=>v===null||v===undefined||(v&&items[v.id]&&Number.isInteger(v.count)&&v.count>=1&&v.count<=maxStack(v.id));
+    function chestInteraction(stack,hand,right){const current=cloneStack(stack),cursor=cloneStack(hand);
+      if(!cursor&&!current)return {slot:null,cursor:null,changed:false};
+      if(!cursor){const n=right?Math.ceil(current.count/2):current.count;return{slot:current.count>n?{...current,count:current.count-n}:null,cursor:{id:current.id,count:n},changed:true};}
+      if(!current)return{slot:{id:cursor.id,count:right?1:cursor.count},cursor:right&&cursor.count>1?{...cursor,count:cursor.count-1}:null,changed:true};
+      if(current.id===cursor.id){const n=Math.min(maxStack(current.id)-current.count,right?1:cursor.count);if(!n)return{slot:current,cursor,changed:false};return{slot:{...current,count:current.count+n},cursor:cursor.count>n?{...cursor,count:cursor.count-n}:null,changed:true};}
+      if(right)return{slot:current,cursor,changed:false};
+      return{slot:cursor,cursor:current,changed:true};
+    }
     let mobSpawnTimer=0,lastMobSync=0,lastNetSend=0,lastChunkX=null,lastChunkZ=null,mobCounter=1,minedCount=0,toastTimer=0;
     const inventory=Array(36).fill(null),craftingGrid=Array(9).fill(null),unlocked=new Set(),keys={},held={left:false,right:false};
     const defaultKeybinds={forward:'KeyW',back:'KeyS',left:'KeyA',right:'KeyD',jump:'Space',sprint:'ControlLeft',crouch:'ShiftLeft',inventory:'KeyE',chat:'Slash'};
@@ -170,7 +197,21 @@
     const camera=new THREE.PerspectiveCamera(fov,innerWidth/innerHeight,.1,430);
     const renderer=new THREE.WebGLRenderer({antialias:false,powerPreference:'low-power',depth:true,stencil:false,precision:'mediump'});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio,.55));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.info.autoReset=true;ROOT.appendChild(renderer.domElement);scene.add(camera);
     const hemisphere=new THREE.HemisphereLight(0xffffff,0x65734b,2);scene.add(hemisphere);const sun=new THREE.DirectionalLight(0xffffff,1.5);sun.position.set(30,50,20);scene.add(sun);
-    cloudGroup=new THREE.Group();scene.add(cloudGroup);{const cloudGeo=new THREE.BoxGeometry(1,1,1),cloudMat=new THREE.MeshLambertMaterial({color:0xffffff,transparent:true,opacity:.88}),clouds=new THREE.InstancedMesh(cloudGeo,cloudMat,96),dummy=new THREE.Object3D();for(let i=0;i<96;i++){const cloud=Math.floor(i/4),part=i%4;dummy.position.set((cloud%8-3.5)*19+(part-1.5)*2,67+(cloud%3)*2+Math.random()*.4, (Math.floor(cloud/8)-1)*42+(Math.random()-.5)*8);dummy.scale.set(5+Math.random()*4,1.2,3+Math.random()*2);dummy.updateMatrix();clouds.setMatrixAt(i,dummy.matrix);}clouds.instanceMatrix.needsUpdate=true;cloudGroup.add(clouds);}
+    cloudGroup=new THREE.Group();scene.add(cloudGroup);
+    {
+      const cloudGeo=new THREE.BoxGeometry(1,1,1);
+      const cloudMat=new THREE.MeshLambertMaterial({color:0xffffff,transparent:true,opacity:.9,depthWrite:false});
+      const partsPerCloud=3,columns=15,rows=15,cells=columns*rows;
+      const clouds=new THREE.InstancedMesh(cloudGeo,cloudMat,cells*partsPerCloud),dummy=new THREE.Object3D();
+      let i=0;for(let gz=0;gz<rows;gz++)for(let gx=0;gx<columns;gx++){
+        const j=hash2(gx*39+481,gz*53+862),k=hash2(gx*81-137,gz*19+1281);
+        const x=(gx-(columns-1)/2)*31+(j-.5)*6,z=(gz-(rows-1)/2)*31+(k-.5)*6;
+        const y=58+Math.floor(hash2(gx+43,gz-19)*3),wide=14+Math.floor(hash2(gx*7,gz*5)*5),deep=11+Math.floor(hash2(gx*9,gz*13)*6);
+        const footprint=[[-wide*.27,0,wide*.46,deep],[wide*.23,0,wide*.54,deep],[-wide*.15,-deep*.72,wide*.4,deep*.43]];
+        for(const [ox,oz,w,d] of footprint){dummy.position.set(x+ox,y,z+oz);dummy.scale.set(w,1.35,d);dummy.rotation.set(0,0,0);dummy.updateMatrix();clouds.setMatrixAt(i++,dummy.matrix);}
+      }
+      clouds.instanceMatrix.needsUpdate=true;clouds.frustumCulled=false;cloudGroup.add(clouds);
+    }
     const rainCount=1300,rainPositions=new Float32Array(rainCount*6);for(let i=0;i<rainCount;i++){const j=i*6,x=(Math.random()-.5)*76,y=Math.random()*48-8,z=(Math.random()-.5)*76;rainPositions[j]=x;rainPositions[j+1]=y;rainPositions[j+2]=z;rainPositions[j+3]=x+.12;rainPositions[j+4]=y-.72;rainPositions[j+5]=z+.04;}const rainGeo=new THREE.BufferGeometry();rainGeo.setAttribute('position',new THREE.BufferAttribute(rainPositions,3));weatherParticles=new THREE.LineSegments(rainGeo,new THREE.LineBasicMaterial({color:0xa6c5df,transparent:true,opacity:.65,depthWrite:false}));weatherParticles.visible=false;scene.add(weatherParticles);
     // Procedural 16x16 pixel art. Built once per session, not per chunk.
     // All graphics are original and require no external texture downloads.
@@ -341,6 +382,19 @@
           putStructure(vx+dx,base+4,vz+dz,'oak_planks');
         }
       };
+      const templeChest=(x,y,z,tx,tz,salt)=>{
+        putStructure(x,y,z,'chest');const key=k3(x,y,z);
+        if(x<sx||x>=sx+16||z<sz||z>=sz+16||mods.has(key)||chestInventories.has(key))return;
+        const loot=Array(27).fill(null),roll=(n)=>hash2(tx*17+salt*53+n*19,tz*31+salt*47-n*7);
+        const pool=[['bone',1,5],['string',1,4],['iron_ingot',1,4],['gold_ingot',1,4],['apple',1,3],['emerald',1,2],['diamond',1,2]];
+        const count=3+Math.floor(roll(100)*3);for(let k=0;k<count;k++){
+          const entry=pool[Math.floor(roll(k+23)*pool.length)];
+          loot[k*3]={id:entry[0],count:entry[1]+Math.floor(roll(k+50)*(entry[2]-entry[1]+1))};
+        }
+        if(roll(117)<.22)loot[21]={id:'golden_apple',count:1};
+        if(roll(118)<.024)loot[23]={id:'enchanted_golden_apple',count:1};
+        chestInventories.set(key,loot);
+      };
       const temple=(tx,tz)=>{
         const base=heightAt(tx,tz)+1;
         for(let dx=-12;dx<=12;dx++)for(let dz=-12;dz<=12;dz++){
@@ -359,7 +413,13 @@
           for(let dx=-1;dx<=1;dx++)for(let dz=-1;dz<=1;dz++)putStructure(tx+ox+dx,base+dy,tz+oz+dz,(dy%3===0)?'red_sandstone':'sandstone');
         }
         for(let dx=-2;dx<=2;dx++)for(let dz=-2;dz<=2;dz++)putStructure(tx+dx,base+1,tz+dz,'red_sandstone');
-        putStructure(tx,base+2,tz,'chest');
+        // Four concealed chests on a stone floor below the centre.
+        for(let dx=-5;dx<=5;dx++)for(let dz=-5;dz<=5;dz++){
+          putStructure(tx+dx,base-6,tz+dz,'sandstone');
+          for(let dy=-5;dy<=-1;dy++)putStructure(tx+dx,base+dy,tz+dz,(Math.abs(dx)===5||Math.abs(dz)===5)?'sandstone':null);
+        }
+        for(const [ox,oz,index] of [[-3,-3,0],[3,-3,1],[-3,3,2],[3,3,3]])templeChest(tx+ox,base-5,tz+oz,tx,tz,index);
+        putStructure(tx,base-1,tz,'red_sandstone');
       };
       const isFlatVillageSite=(vx,vz)=>{
         const base=heightAt(vx,vz);let min=base,max=base;
@@ -383,7 +443,20 @@
       for(const [key,type] of mods){const [x,y,z]=key.split(',').map(Number);if(Math.floor(x/16)!==cx||Math.floor(z/16)!==cz)continue;if(type===null){c.blocks.delete(key);world.delete(key);}else storeGenerated(x,y,z,type,c);}
     }
     function generateChunk(cx,cz){for(const _ of generateChunkSteps(cx,cz)){} }
-    function disposeChunk(c){if(c.mesh){scene.remove(c.mesh);c.mesh.geometry.dispose();c.mesh=null;}}
+    const chestModels=new Map();
+    const chestBodyGeometry=new THREE.BoxGeometry(1.035,.73,1.035),chestLidGeometry=new THREE.BoxGeometry(1.055,.26,1.055),chestLockGeometry=new THREE.BoxGeometry(.15,.24,.08),chestBandGeometry=new THREE.BoxGeometry(1.055,.075,1.055),chestStrapGeometry=new THREE.BoxGeometry(.14,.18,1.09);
+    const chestBodyMat=new THREE.MeshLambertMaterial({color:0x855023}),chestLidMat=new THREE.MeshLambertMaterial({color:0xb27a39}),chestLockMat=new THREE.MeshLambertMaterial({color:0xd8c775}),chestBandMat=new THREE.MeshLambertMaterial({color:0x493016});
+    function makeChestModel(b,c){const key=k3(b.x,b.y,b.z),g=new THREE.Group();g.position.set(b.x+.5,b.y,b.z+.5);
+      const lower=new THREE.Mesh(chestBodyGeometry,chestBodyMat);lower.position.y=.37;g.add(lower);
+      const band=new THREE.Mesh(chestBandGeometry,chestBandMat);band.position.y=.65;g.add(band);
+      const hinge=new THREE.Group();hinge.position.set(0,.78,.51);g.add(hinge);
+      const lid=new THREE.Mesh(chestLidGeometry,chestLidMat);lid.position.set(0,.115,-.51);hinge.add(lid);
+      const latch=new THREE.Mesh(chestLockGeometry,chestLockMat);latch.position.set(0,-.02,-1.052);hinge.add(latch);
+      const strap=new THREE.Mesh(chestStrapGeometry,chestBandMat);strap.position.set(0,.22,-.51);hinge.add(strap);
+      hinge.rotation.x=openChestKey===key?-.95:0;scene.add(g);c.chestDecor??=[];c.chestDecor.push(g);chestModels.set(key,{g,hinge});
+    }
+    function setChestLid(key,open){const obj=chestModels.get(key);if(obj)obj.hinge.rotation.x=open?-.95:0;}
+    function disposeChunk(c){if(c.mesh){scene.remove(c.mesh);c.mesh.geometry.dispose();c.mesh=null;}for(const g of c.chestDecor||[]){chestModels.delete(k3(Math.floor(g.position.x),Math.floor(g.position.y),Math.floor(g.position.z)));scene.remove(g);}c.chestDecor=[];}
     function* buildChunkSteps(c){
       const revision=c.revision||0;
       // Keep the previous mesh visible while the replacement is built.
@@ -397,7 +470,7 @@ const byType=renderTypes.map(()=>[]),normByType=renderTypes.map(()=>[]),idx=Obje
       disposeChunk(c);
       const pos=[],norm=[],geo=new THREE.BufferGeometry();let offset=0;
       for(let i=0;i<renderTypes.length;i++){const p=byType[i],n=normByType[i];if(!p.length)continue;geo.addGroup(offset,p.length/3,i);for(let j=0;j<p.length;j++)pos.push(p[j]);for(let j=0;j<n.length;j++)norm.push(n[j]);offset+=p.length/3;}
-      if(!pos.length)return;geo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));geo.setAttribute('normal',new THREE.Float32BufferAttribute(norm,3));c.mesh=new THREE.Mesh(geo,renderTypes.map(id=>blockMats[id]));c.mesh.position.set(c.cx*16,0,c.cz*16);scene.add(c.mesh);
+      if(!pos.length)return;geo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));geo.setAttribute('normal',new THREE.Float32BufferAttribute(norm,3));c.mesh=new THREE.Mesh(geo,renderTypes.map(id=>blockMats[id]));c.mesh.position.set(c.cx*16,0,c.cz*16);scene.add(c.mesh);for(const block of c.blocks.values())if(block.type==='chest')makeChestModel(block,c);
     }
     function buildChunk(c){for(const _ of buildChunkSteps(c)){} }
     function rebuildAll(){for(const c of chunks.values())buildChunk(c);}
@@ -406,15 +479,28 @@ const byType=renderTypes.map(()=>[]),normByType=renderTypes.map(()=>[]),idx=Obje
     function removeFarTerrain(key){const mesh=farTerrain.get(key);if(mesh){scene.remove(mesh);mesh.geometry.dispose();farTerrain.delete(key);}}
     function createFarTerrain(cx,cz){
       const key=ck(cx,cz);if(chunks.has(key)||farTerrain.has(key))return;
-      const vertices=[],colors=[],indices=[],cGrass=new THREE.Color('#6b9948'),cDesert=new THREE.Color('#d5bb81');
-      for(let z=0;z<=16;z++)for(let x=0;x<=16;x++){
-        const wx=cx*16+x,wz=cz*16+z,h=heightAt(wx,wz)+1;
-        vertices.push(wx,h,wz);const color=biome(wx,wz)>.79?cDesert:cGrass;
-        const shade=.85+hash2(wx,wz)*.28;colors.push(color.r*shade,color.g*shade,color.b*shade);
+      // Each low-cost column has a flat block top and genuine vertical walls.
+      const positions=[],colors=[],normals=[],step=quality==='High'?2:4,cols=16/step;
+      const heights=[];for(let z=0;z<cols;z++){heights[z]=[];for(let x=0;x<cols;x++)heights[z][x]=heightAt(cx*16+x*step+step*.5,cz*16+z*step+step*.5)+1;}
+      const writeFace=(coords,hex,shade)=>{const c=new THREE.Color(hex);for(const q of [0,1,2,0,2,3]){const v=coords[q];positions.push(...v);colors.push(c.r*shade,c.g*shade,c.b*shade);}};
+      for(let iz=0;iz<cols;iz++)for(let ix=0;ix<cols;ix++){
+        const x=cx*16+ix*step,z=cz*16+iz*step,y=heights[iz][ix];
+        const desert=biome(x,z)>.79,grass=desert?'#d7bb78':'#699c45',dirt=desert?'#c9a96c':'#785532',noise=.92+hash2(x,z)*.12;
+        writeFace([[x,y,z],[x+step,y,z],[x+step,y,z+step],[x,y,z+step]],grass,noise);
+        const sides=[[-1,0,[[x,y,z+step],[x,y,z],[x,0,z],[x,0,z+step]]],
+          [1,0,[[x+step,y,z],[x+step,y,z+step],[x+step,0,z+step],[x+step,0,z]]],
+          [0,-1,[[x,y,z],[x+step,y,z],[x+step,0,z],[x,0,z]]],
+          [0,1,[[x+step,y,z+step],[x,y,z+step],[x,0,z+step],[x+step,0,z+step]]]];
+        for(const [dx,dz,verts] of sides){const ni=ix+dx,nj=iz+dz;
+          const adjacent=ni>=0&&nj>=0&&ni<cols&&nj<cols?heights[nj][ni]:heightAt(x+step*.5+dx*step,z+step*.5+dz*step)+1;
+          if(adjacent>=y)continue;
+          const lower=Math.max(y-10,adjacent);
+          for(const pt of verts)if(pt[1]===0)pt[1]=lower;
+          writeFace(verts,dirt,noise*(dx!==0?.75:.84));
+        }
       }
-      for(let z=0;z<16;z++)for(let x=0;x<16;x++){const a=z*17+x,b=a+1,c=a+17,d=c+1;indices.push(a,c,b,b,c,d);}
-      const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(vertices,3));geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.setIndex(indices);geo.computeVertexNormals();
-      const mesh=new THREE.Mesh(geo,farGeoMat);mesh.frustumCulled=true;scene.add(mesh);farTerrain.set(key,mesh);
+      const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));geometry.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geometry.computeVertexNormals();
+      const mesh=new THREE.Mesh(geometry,farGeoMat);mesh.frustumCulled=true;scene.add(mesh);farTerrain.set(key,mesh);
     }
     function processFarTerrain(){let budget=quality==='Low'?3:quality==='Medium'?5:7;
       while(budget--&&farTerrainQueue.length){const q=farTerrainQueue.shift();farQueuedKeys.delete(q.key);if(desiredFarKeys.has(q.key)&&!chunks.has(q.key))createFarTerrain(q.cx,q.cz);}
@@ -610,6 +696,7 @@ const byType=renderTypes.map(()=>[]),normByType=renderTypes.map(()=>[]),idx=Obje
     recipe('oak_fence',3,['oak_planks stick oak_planks','oak_planks stick oak_planks']);
     recipe('oak_door',3,['oak_planks oak_planks','oak_planks oak_planks','oak_planks oak_planks']);
     recipe('chest',1,['oak_planks oak_planks oak_planks','oak_planks _ oak_planks','oak_planks oak_planks oak_planks']);
+    recipe('golden_apple',1,['gold_ingot gold_ingot gold_ingot','gold_ingot apple gold_ingot','gold_ingot gold_ingot gold_ingot']);
     recipe('furnace',1,['cobblestone cobblestone cobblestone','cobblestone _ cobblestone','cobblestone cobblestone cobblestone']);
     recipe('furnace',1,['stone stone stone','stone _ stone','stone stone stone']); // v13 compatibility
     recipe('bucket',1,['iron_ingot _ iron_ingot','_ iron_ingot _']);
@@ -699,9 +786,56 @@ const byType=renderTypes.map(()=>[]),normByType=renderTypes.map(()=>[]),idx=Obje
     function relockGameMouse(){if(running&&!paused&&!chatOpen){try{const result=renderer.domElement.requestPointerLock();if(result?.catch)result.catch(()=>showLockHint());}catch(e){}}}
     function openInventory(asTable=false){if(!running||paused)return;openWorkbench=!!asTable;craftingSize=openWorkbench?3:2;inventoryOpen=true;held.left=false;held.right=false;document.exitPointerLock?.();renderInventory();invOverlay.style.display='flex';updateCursorGhost();}
     function closeInventory(){putCursorBack();returnGridToInventory();inventoryOpen=false;openWorkbench=false;craftDrag.active=false;craftDrag.visited.clear();invOverlay.style.display='none';itemTooltip.style.display='none';cursorGhost.style.display='none';updateHotbar();relockGameMouse();}
+    const deathOverlay=document.createElement('div');deathOverlay.className='fm-deathscreen';ROOT.appendChild(deathOverlay);
+    function showDeathScreen(cause,attacker){
+      const text=deathLine(playerName,cause,attacker);
+      held.left=false;held.right=false;inventoryOpen=false;openWorkbench=false;
+      invOverlay.style.display='none';chestOverlay.style.display='none';furnaceOverlay.style.display='none';
+      openChestKey=null;chatOpen=false;document.exitPointerLock?.();
+      deathOverlay.innerHTML=`<h1>You Died!</h1><p id="fm-death-reason"></p><button class="fm-button" id="fm-respawn" type="button">Respawn</button>`;
+      deathOverlay.querySelector('#fm-death-reason').textContent=text;
+      deathOverlay.querySelector('#fm-respawn').onclick=finishRespawn;
+      deathOverlay.style.display='flex';
+    }
+    function finishRespawn(){if(!deathPending)return;
+      deathPending=false;deathOverlay.style.display='none';
+      const target=deathRespawnTarget||spawnPoint;deathRespawnTarget=null;
+      player.position.set(target.x,target.y,target.z);velocityY=0;fallPeakY=target.y;
+      oxygen=15;drownTimer=0;updateAirHud(false);hp=20;hunger=20;playerSleeping=false;sleepingPlayers.delete(playerId);
+      updateChunks(true);updateHotbar();updateHealth(true);updateHunger();relockGameMouse();
+    }
     const chestOverlay=document.createElement('div');chestOverlay.className='fm-overlay';ROOT.appendChild(chestOverlay);
-    function syncChest(key){const data=chestInventories.get(key)||Array(27).fill(null);if(isHost){broadcast({type:'chestData',key,items:data});}else if(peer){sendHost({type:'chestUpdate',key,items:data});}}
-    function openChest(key,request=true){const firstOpen=openChestKey!==key;openChestKey=key;let data=chestInventories.get(key);if(!data){data=Array(27).fill(null);chestInventories.set(key,data);}if(firstOpen&&request&&!isHost&&peer)sendHost({type:'chestRequest',key});inventoryOpen=true;document.exitPointerLock?.();chestOverlay.innerHTML=`<div class="fm-inventory"><div style="display:flex;justify-content:space-between"><b>Chest</b><button id="fm-chest-close">✕</button></div><div class="fm-inv-grid" id="fm-chest-grid" style="margin:12px 0"></div><b>Inventory</b><div class="fm-inv-grid" id="fm-chest-player" style="margin-top:8px"></div></div>`;const cg=chestOverlay.querySelector('#fm-chest-grid'),pg=chestOverlay.querySelector('#fm-chest-player');function cell(list,i,isChest){const b=document.createElement('button');b.className='fm-inv-slot';const s=list[i];if(s){b.appendChild(drawIcon(s.id));const n=document.createElement('span');n.className='fm-item-count';n.textContent=s.count;b.appendChild(n);}b.onclick=()=>{const stack=list[i];if(cursorStack){if(!stack){list[i]=cursorStack;cursorStack=null;}else if(stack.id===cursorStack.id){const n=Math.min(64-stack.count,cursorStack.count);stack.count+=n;cursorStack.count-=n;if(!cursorStack.count)cursorStack=null;}else{list[i]=cursorStack;cursorStack=stack;}}else if(stack){cursorStack=stack;list[i]=null;}updateHotbar();if(isChest)syncChest(key);openChest(key,false);};return b;}for(let i=0;i<27;i++)cg.appendChild(cell(data,i,true));for(let i=0;i<36;i++)pg.appendChild(cell(inventory,i,false));chestOverlay.querySelector('#fm-chest-close').onclick=()=>{putCursorBack();inventoryOpen=false;openChestKey=null;chestOverlay.style.display='none';updateHotbar();relockGameMouse();};chestOverlay.style.display='flex';}
+    function syncChest(key){if(!hasAuthority())return;
+      const version=(chestVersions.get(key)||0)+1;chestVersions.set(key,version);
+      if(isHost)broadcast({type:'chestData',key,items:chestInventories.get(key)||Array(27).fill(null),version});
+    }
+    function closeChest(){if(chestPending)return showToast('Chest','Please finish your pending transfer.');putCursorBack();inventoryOpen=false;setChestLid(openChestKey,false);openChestKey=null;chestPending=null;chestOverlay.style.display='none';updateHotbar();relockGameMouse();}
+    function openChest(key,request=true){
+      if(!running||deathPending)return;
+      if(openChestKey&&openChestKey!==key)setChestLid(openChestKey,false);
+      const firstOpen=openChestKey!==key;openChestKey=key;let data=chestInventories.get(key);
+      if(!data){data=Array(27).fill(null);chestInventories.set(key,data);}
+      if(firstOpen&&request&&!hasAuthority())sendHost({type:'chestRequest',key});
+      inventoryOpen=true;held.left=false;held.right=false;document.exitPointerLock?.();setChestLid(key,true);
+      chestOverlay.innerHTML=`<div class="fm-inventory fm-chest-ui"><div style="display:flex;justify-content:space-between;align-items:center"><b style="font-size:20px">Chest</b><button id="fm-chest-close" class="fm-chest-close">✕</button></div><div class="fm-inv-grid" id="fm-chest-grid" style="margin:12px 0"></div><b>Inventory</b><div class="fm-inv-grid" id="fm-chest-player" style="margin-top:8px"></div></div>`;
+      const cg=chestOverlay.querySelector('#fm-chest-grid'),pg=chestOverlay.querySelector('#fm-chest-player');
+      function cell(list,i,isChest){const b=document.createElement('button');b.className='fm-inv-slot';const stack=list[i];showItemCell(stack,b);
+        b.oncontextmenu=e=>e.preventDefault();b.onpointerdown=e=>{if(e.button!==0&&e.button!==2)return;e.preventDefault();if(chestPending)return;
+          if(isChest){if(hasAuthority()){
+              const result=chestInteraction(data[i],cursorStack,e.button===2||e.ctrlKey);
+              if(!result.changed)return;data[i]=result.slot;cursorStack=result.cursor;syncChest(key);updateHotbar();openChest(key,false);
+            }else{
+              const tx=++chestActionSeq,version=chestVersions.get(key)||0;
+              chestPending={tx,key,at:performance.now()};
+              if(!sendHost({type:'chestAction',key,index:i,version,tx,right:e.button===2||e.ctrlKey,cursor:cloneStack(cursorStack)})){chestPending=null;showToast('Chest','Connection unavailable.');}
+              else openChest(key,false);
+            }
+          }else{moveStack(()=>inventory[i],v=>inventory[i]=v,e);openChest(key,false);}
+        };return b;}
+      for(let i=0;i<27;i++)cg.appendChild(cell(data,i,true));for(let i=0;i<36;i++)pg.appendChild(cell(inventory,i,false));
+      const close=chestOverlay.querySelector('#fm-chest-close');close.onclick=closeChest;
+      chestOverlay.style.display='flex';updateCursorGhost();
+    }
     function renderChest(key){openChest(key,false);}
     const furnaceOverlay=document.createElement('div');furnaceOverlay.className='fm-overlay';ROOT.appendChild(furnaceOverlay);
     function consumeInventoryItem(id,count=1){if(countItem(id)<count)return false;let left=count;for(let i=0;i<inventory.length;i++){const slot=inventory[i];if(!slot||slot.id!==id)continue;const n=Math.min(left,slot.count);slot.count-=n;left-=n;if(slot.count<=0)inventory[i]=null;if(!left)break;}updateHotbar();return true;}
@@ -879,12 +1013,12 @@ function updateDroppedItems(dt){
       }
       if(hasAuthority()){
         for(const d of [...droppedItems.values()]){
-          if(Math.hypot(player.position.x-d.x,player.position.z-d.z)<1.35&&Math.abs(player.position.y-d.y)<2.2&&collectWorldDrop(d,playerId))continue;
+          if(!deathPending&&Math.hypot(player.position.x-d.x,player.position.z-d.z)<1.35&&Math.abs(player.position.y-d.y)<2.2&&collectWorldDrop(d,playerId))continue;
           for(const [id,r] of remotePlayers){
             if(Math.hypot((r.state.x||0)-d.x,(r.state.z||0)-d.z)<1.6&&Math.abs((r.state.y||0)-d.y)<2.4){if(collectWorldDrop(d,id))break;}
           }
         }
-      }else{
+      }else if(!deathPending){
         // Explicit pickup request helps when an interpolation frame misses proximity.
         for(const d of droppedItems.values()){
           if(Math.hypot(player.position.x-d.x,player.position.z-d.z)>1.5||Math.abs(player.position.y-d.y)>2.4)continue;
@@ -903,10 +1037,11 @@ function updateDroppedItems(dt){
         if(!needed)removeChunk(c.cx,c.cz);
       }
     }
-    function dropForBlock(type){if(type==='water'||type==='lava'||type==='bedrock')return null;if(type==='grass')return'dirt';if(type==='stone')return'cobblestone';if(type==='gravel')return Math.random()<.11?'flint':'gravel';if(type==='iron_ore')return'raw_iron';if(type==='diamond_ore')return'diamond';if(type==='coal_ore')return'coal';if(type==='oak_leaves')return Math.random()<.12?'stick':null;return type;}
+    function dropForBlock(type){if(type==='water'||type==='lava'||type==='bedrock')return null;if(type==='grass')return'dirt';if(type==='stone')return'cobblestone';if(type==='gravel')return Math.random()<.11?'flint':'gravel';if(type==='iron_ore')return'raw_iron';if(type==='diamond_ore')return'diamond';if(type==='coal_ore')return'coal';if(type==='oak_leaves'){const chance=Math.random();return chance<.005?'apple':chance<.125?'stick':null;}return type;}
     function applyBlockMessage(m){
       if(![m.x,m.y,m.z].every(Number.isFinite))return;
       const key=k3(m.x,m.y,m.z);
+      if(m.block===null||m.block==='chest'){chestInventories.delete(key);chestVersions.delete(key);}
       if(pendingMine===key)pendingMine=null;
       const localPlace=optimisticPlacements.get(key);const localMine=optimisticMines.get(key);
       if(localPlace&&m.actor===playerId)optimisticPlacements.delete(key);
@@ -917,7 +1052,7 @@ function updateDroppedItems(dt){
       else if(world.get(key)!==m.block){changeBlock(m.x,m.y,m.z,m.block);flushNearbyMesh(m.x,m.z);}
       if(m.actor===playerId&&m.block&&!localPlace){const s=inventory[m.slot??selectedSlot];if(s&&s.id===m.block&&gameMode!=='Creative'){s.count--;if(s.count<=0)inventory[m.slot??selectedSlot]=null;updateHotbar();}}
     }
-    function hostMine(x,y,z,actor){ensureChunkAt(x,z);const type=world.get(k3(x,y,z));if(!type||type==='water'||type==='lava'||type==='bedrock')return false;const mode=actor===playerId?gameMode:(remotePlayers.get(actor)?.state.gameMode||'Survival');const drop=mode==='Creative'?null:dropForBlock(type);if(!changeBlock(x,y,z,null))return false;flushNearbyMesh(x,z);broadcast({type:'block',x,y,z,block:null,actor,minedType:type});if(drop)spawnDroppedItem(drop,1,x,y,z);mineAchievement(type,actor);return true;}
+    function hostMine(x,y,z,actor){ensureChunkAt(x,z);const type=world.get(k3(x,y,z));if(!type||type==='water'||type==='lava'||type==='bedrock')return false;const mode=actor===playerId?gameMode:(remotePlayers.get(actor)?.state.gameMode||'Survival');const drop=mode==='Creative'?null:dropForBlock(type);if(!changeBlock(x,y,z,null))return false;if(type==='chest'){const key=k3(x,y,z),data=chestInventories.get(key)||[];chestInventories.delete(key);chestVersions.delete(key);for(const stack of data)if(stack)spawnDroppedItem(stack.id,stack.count,x,y,z);broadcast({type:'chestRemoved',key});if(openChestKey===key)closeChest();}flushNearbyMesh(x,z);broadcast({type:'block',x,y,z,block:null,actor,minedType:type});if(drop)spawnDroppedItem(drop,1,x,y,z);mineAchievement(type,actor);return true;}
     function hostBucketAction(x,y,z,nx,ny,nz,slot,actor){
       x=Math.floor(x);y=Math.floor(y);z=Math.floor(z);slot=Math.max(0,Math.min(35,Number(slot)||0));
       const key=k3(x,y,z),r=remotePlayers.get(actor),heldItem=actor===playerId?inventory[slot]?.id:r?.state.selectedItem;
@@ -971,9 +1106,29 @@ function updateDroppedItems(dt){
         }
         if(msg.type==='sleep'){const x=Number(msg.x),y=Number(msg.y),z=Number(msg.z);if([x,y,z].every(Number.isInteger)&&validReach(r.state,x,y,z)){ensureChunkAt(x,z);if(world.get(k3(x,y,z))==='red_bed')setPlayerSleeping(from,true);}return;}
         if(msg.type==='igniteTnt'){const x=Number(msg.x),y=Number(msg.y),z=Number(msg.z);if([x,y,z].every(Number.isInteger)&&validReach(r.state,x,y,z)&&r.state.selectedItem==='flint_and_steel'){ensureChunkAt(x,z);primeTNT(x,y,z);}return;}
-        if(msg.type==='deathNotice'){const cause=String(msg.cause||'generic').slice(0,30),attacker=String(msg.attacker||'').slice(0,20);serverSay(deathLine(r.model.name,cause,attacker));if(!keepInventory&&Array.isArray(msg.items)&&msg.items.length<=36){let drops=0;for(const v of msg.items){if(items[v?.id]&&Number.isInteger(v.count)&&v.count>0&&drops++<36)spawnDroppedItem(v.id,Math.min(64,v.count),r.state.x,r.state.y,r.state.z);}}return;}
+        if(msg.type==='deathNotice'){const cause=String(msg.cause||'generic').slice(0,30),attacker=String(msg.attacker||'').slice(0,20);serverSay(deathLine(r.model.name,cause,attacker));if(!keepInventory&&Array.isArray(msg.items)&&msg.items.length<=52){let drops=0;for(const v of msg.items){if(items[v?.id]&&Number.isInteger(v.count)&&v.count>0&&drops++<52){let n=Math.min(64,v.count);while(n>0){const q=Math.min(maxStack(v.id),n);spawnDroppedItem(v.id,q,r.state.x,r.state.y,r.state.z);n-=q;}}}}return;}
         if(msg.type==='bucket'){if(validReach(r.state,msg.x,msg.y,msg.z)){hostBucketAction(msg.x,msg.y,msg.z,msg.nx,msg.ny,msg.nz,msg.slot??0,from);}return;}
-        if(msg.type==='chestRequest'||msg.type==='chestUpdate'){const key=String(msg.key||''),parts=key.split(',').map(Number);if(parts.length!==3||!parts.every(Number.isFinite))return;const [x,y,z]=parts;if(!validReach(r.state,x,y,z))return;ensureChunkAt(x,z);if(world.get(key)!=='chest')return;if(msg.type==='chestRequest'){let data=chestInventories.get(key);if(!data){data=Array(27).fill(null);chestInventories.set(key,data);}conn.send({type:'chestData',key,items:data});}else{const data=Array.from({length:27},(_,i)=>{const v=msg.items?.[i];return v&&items[v.id]&&Number.isInteger(v.count)&&v.count>0?{id:v.id,count:Math.min(64,v.count)}:null;});chestInventories.set(key,data);broadcast({type:'chestData',key,items:data},from);if(openChestKey===key&&chestOverlay.style.display==='flex')openChest(key,false);}return;}
+        if(msg.type==='chestRequest'||msg.type==='chestAction'){
+          const key=String(msg.key||''),parts=key.split(',').map(Number);
+          if(parts.length!==3||!parts.every(Number.isInteger))return;
+          const [x,y,z]=parts;
+          if(!validReach(r.state,x,y,z))return;
+          ensureChunkAt(x,z);if(world.get(key)!=='chest')return;
+          let data=chestInventories.get(key);if(!data){data=Array(27).fill(null);chestInventories.set(key,data);}
+          const version=chestVersions.get(key)||0;
+          if(msg.type==='chestRequest'){conn.send({type:'chestData',key,items:data,version});return;}
+          const i=msg.index,tx=msg.tx,last=chestLastAction.get(from)||0;
+          if(!Number.isSafeInteger(tx)||tx<=last||!Number.isInteger(i)||i<0||i>26||!validChestStack(msg.cursor))return;
+          chestLastAction.set(from,tx);
+          if(msg.version!==version){conn.send({type:'chestReceipt',tx,key,ok:false,version,items:data});return;}
+          const action=chestInteraction(data[i],msg.cursor,!!msg.right);
+          if(action.changed){data[i]=action.slot;chestVersions.set(key,version+1);
+            broadcast({type:'chestData',key,version:version+1,items:data},from);
+            if(openChestKey===key&&chestOverlay.style.display==='flex')openChest(key,false);
+          }
+          conn.send({type:'chestReceipt',tx,key,ok:true,version:chestVersions.get(key)||version,items:data,cursor:action.cursor});
+          return;
+        }
         if(msg.type==='hitMob'){const m=mobs.get(msg.id);if(m&&Math.hypot(m.group.position.x-r.state.x,m.group.position.z-r.state.z)<5)damageMob(m,from,!!msg.critical,!!msg.sword,Number(msg.charge)||0);return;}
         if(msg.type==='hitPlayer'&&pvpEnabled){
           const targetId=String(msg.id||''),target=targetId===playerId?null:remotePlayers.get(targetId);
@@ -1000,7 +1155,15 @@ function updateDroppedItems(dt){
         if(msg.type==='state'){const r=remotePlayers.get(msg.id)||addRemote(msg.id,msg.state);r.state={...r.state,...msg.state};pose(r.model,r.state);return;}if(msg.type==='profileUpdate'){const r=remotePlayers.get(msg.id);if(r){scene.remove(r.model.group);r.model=makeAvatar(msg.name,msg.avatar,msg.appearance);r.model.group.traverse(o=>{if(o.isMesh)o.userData.remotePlayer=msg.id;});scene.add(r.model.group);pose(r.model,r.state);}return;}
         if(msg.type==='playerJoin'){const p=msg.player;if(p&&p.id!==playerId){const r=addRemote(p.id,{name:p.name,avatar:p.avatar,appearance:p.appearance});r.state={...p};pose(r.model,r.state);}return;}
         if(msg.type==='block'){applyBlockMessage(msg);return;}
-        if(msg.type==='chestData'){const key=String(msg.key||'');chestInventories.set(key,Array.isArray(msg.items)?msg.items:Array(27).fill(null));if(openChestKey===key&&chestOverlay.style.display==='flex')openChest(key,false);return;}
+        if(msg.type==='chestRemoved'){const key=String(msg.key||'');chestInventories.delete(key);chestVersions.delete(key);if(openChestKey===key){chestPending=null;closeChest();}return;}
+        if(msg.type==='chestData'){const key=String(msg.key||''),version=Number(msg.version)||0;if(version<(chestVersions.get(key)||0))return;
+          chestVersions.set(key,version);chestInventories.set(key,Array.isArray(msg.items)?msg.items.map(cloneStack):Array(27).fill(null));
+          if(openChestKey===key&&chestOverlay.style.display==='flex')openChest(key,false);return;}
+        if(msg.type==='chestReceipt'){if(!chestPending||msg.tx!==chestPending.tx||msg.key!==chestPending.key)return;
+          chestPending=null;const key=String(msg.key||'');chestVersions.set(key,Number(msg.version)||0);
+          if(Array.isArray(msg.items))chestInventories.set(key,msg.items.map(cloneStack));
+          if(msg.ok){cursorStack=cloneStack(msg.cursor);updateHotbar();}else showToast('Chest changed','A player updated the chest. Please try again.');
+          if(openChestKey===key&&chestOverlay.style.display==='flex')openChest(key,false);return;}
         if(msg.type==='item'){addItem(msg.id,msg.count||1);return;}
         if(msg.type==='dropSpawn'){makeDropVisual(msg.drop);return;}
         if(msg.type==='drops'){syncDrops(msg.list||[]);return;}
@@ -1011,10 +1174,10 @@ function updateDroppedItems(dt){
         if(msg.type==='tntGone'){removePrimedTnt(msg.id);return;}
         if(msg.type==='blockBatch'){const changed=new Set();for(const b of msg.changes||[]){if(![b.x,b.y,b.z].every(Number.isInteger))continue;const chunk=ck(Math.floor(b.x/16),Math.floor(b.z/16));if(chunks.has(chunk))changeBlock(b.x,b.y,b.z,b.block);else mods.set(k3(b.x,b.y,b.z),b.block);changed.add(chunk);}for(const c of changed){const [cx,cz]=c.split(',').map(Number);if(Math.abs(cx-Math.floor(player.position.x/16))<=1&&Math.abs(cz-Math.floor(player.position.z/16))<=1){const chunk=chunks.get(c);if(chunk)buildChunk(chunk);}}return;}
         if(msg.type==='sleepDone'){worldTime=msg.worldTime??.27;weather=msg.weather||'Clear';playerSleeping=false;showToast('Morning','The night has passed.');return;}
-        if(msg.type==='fatal'){if(!keepInventory){inventory.fill(null);armour={head:null,chest:null,legs:null,feet:null};offhand=null;craftingGrid.fill(null);}updateHotbar();showToast('You died',deathLine(playerName,msg.cause,msg.attacker));return;}
+        if(msg.type==='fatal'){respawn(msg.cause||'generic',msg.attacker||'',true);return;}
         if(msg.type==='mobs'){syncMobs(msg.list||[]);return;}
         if(msg.type==='damage'){hp=Math.max(0,msg.hp);if(Number.isFinite(msg.kx))knockbackX=msg.kx;if(Number.isFinite(msg.kz))knockbackZ=msg.kz;updateHealth(true);if(hp<=0)respawn(msg.cause||'generic',msg.attacker||'');return;}
-        if(msg.type==='respawn'){player.position.set(msg.x,msg.y,msg.z);hp=20;updateHealth(true);return;}
+        if(msg.type==='respawn'){if(deathPending){deathRespawnTarget={x:msg.x,y:msg.y,z:msg.z};}else{player.position.set(msg.x,msg.y,msg.z);hp=20;updateHealth(true);}return;}
         if(msg.type==='playerHit'){const r=remotePlayers.get(msg.id);if(r){r.hitUntil=performance.now()+120;setAvatarTint(r.model,true);}return;}
         if(msg.type==='mobHealth'){const m=mobs.get(msg.id);if(m){m.hp=msg.hp;flashMob(m);if(msg.dead)removeMob(msg.id);}return;}
         if(msg.type==='chat'){addChat(msg.name,msg.text);return;}
@@ -1064,39 +1227,56 @@ function updateDroppedItems(dt){
       if(r.state.hp>0)conn.send({type:'damage',hp:r.state.hp,kx:dx/len*3,kz:dz/len*3});
       r.hitUntil=performance.now()+120;setAvatarTint(r.model,true);broadcast({type:'playerHit',id},id);
       if(r.state.hp<=0){const name=attackerName||playerName;serverSay(deathLine(r.model.name,cause,name));
-        if(!keepInventory)for(const [item,count] of Object.entries(r.state.inventoryCounts||{})){if(items[item])spawnDroppedItem(item,Math.min(256,Math.max(1,count|0)),r.state.x,r.state.y,r.state.z);}
+        if(!keepInventory)for(const [item,count] of Object.entries(r.state.inventoryCounts||{})){if(items[item]){let left=Math.min(4096,Math.max(0,count|0));while(left>0){const size=Math.min(maxStack(item),left);spawnDroppedItem(item,size,r.state.x,r.state.y,r.state.z);left-=size;}}}
         r.state.hp=20;r.state.x=player.position.x+2;r.state.y=player.position.y;r.state.z=player.position.z;
         conn.send({type:'fatal',cause,attacker:name,keepInventory});conn.send({type:'respawn',x:r.state.x,y:r.state.y,z:r.state.z,hp:20});
       }
     }
     function armorFactor(equipped=armour){let points=0;for(const slot of Object.values(equipped||{})){const id=slot?.id||slot;if(!id)continue;if(id.startsWith('leather_'))points+=1;if(id.startsWith('iron_'))points+=2;if(id.startsWith('diamond_'))points+=3;}return Math.max(.35,1-Math.min(20,points)*.04);}
-    function damagePlayer(n,environmental=false,cause='generic',attacker=''){if(gameMode==='Creative'||(difficulty==='Peaceful'&&!environmental))return;hp=Math.max(0,hp-n*armorFactor());updateHealth(true);if(hp<=0)respawn(cause,attacker);}
-    function respawn(cause='generic',attacker=''){
+    function damagePlayer(n,environmental=false,cause='generic',attacker=''){if(deathPending)return;if(gameMode==='Creative'||(difficulty==='Peaceful'&&!environmental))return;hp=Math.max(0,hp-n*armorFactor());updateHealth(true);if(hp<=0)respawn(cause,attacker);}
+    function respawn(cause='generic',attacker='',hostConfirmed=false){
+      if(deathPending)return;
       const now=performance.now();if(now-lastDeathAt<400)return;lastDeathAt=now;
-      const msg=deathLine(playerName,cause,attacker);const drops=[];
-      if(!keepInventory&&gameMode!=='Creative'){for(const s of inventory)if(s)drops.push({...s});for(const s of Object.values(armour))if(s)drops.push({...s});if(offhand)drops.push({...offhand});inventory.fill(null);armour={head:null,chest:null,legs:null,feet:null};offhand=null;craftingGrid.fill(null);cursorStack=null;}
-      if(isHost){serverSay(msg);for(const d of drops)spawnDroppedItem(d.id,d.count,player.position.x,player.position.y,player.position.z);}
-      else if(peer){sendHost({type:'deathNotice',cause,attacker,items:drops});}
-      else{addChat('Server',msg);for(const d of drops)spawnDroppedItem(d.id,d.count,player.position.x,player.position.y,player.position.z);}
-      oxygen=15;drownTimer=0;updateAirHud(false);hp=20;hunger=20;playerSleeping=false;sleepingPlayers.delete(playerId);player.position.set(spawnPoint.x,spawnPoint.y,spawnPoint.z);velocityY=0;updateHotbar();updateHealth(true);showToast('Respawned',keepInventory?'Inventory kept':'Items dropped');
+      deathPending=true;deathRespawnTarget={...spawnPoint};const msg=deathLine(playerName,cause,attacker),drops=[];
+      if(!keepInventory&&gameMode!=='Creative'){
+        for(const stack of inventory)if(stack)drops.push({...stack});
+        for(const stack of Object.values(armour))if(stack)drops.push({...stack});
+        if(offhand)drops.push({...offhand});
+        for(const stack of craftingGrid)if(stack)drops.push({...stack});
+        if(cursorStack)drops.push({...cursorStack});
+        inventory.fill(null);armour={head:null,chest:null,legs:null,feet:null};offhand=null;craftingGrid.fill(null);cursorStack=null;
+      }
+      if(!hostConfirmed){
+        if(isHost){serverSay(msg);for(const stack of drops)spawnDroppedItem(stack.id,stack.count,player.position.x,player.position.y,player.position.z);}
+        else if(peer){sendHost({type:'deathNotice',cause,attacker,items:drops});}
+        else{addChat('Server',msg);for(const stack of drops)spawnDroppedItem(stack.id,stack.count,player.position.x,player.position.y,player.position.z);}
+      }
+      showDeathScreen(cause,attacker);
+      updateHotbar();updateHealth(true);
     }
     function mobCanWalk(m,nx,nz){
-      const x=Math.floor(nx),z=Math.floor(nz);
-      if(!chunks.has(ck(Math.floor(x/16),Math.floor(z/16))))return null;
-      const y=groundAt(nx,nz,m.group.position.y+1.4);
-      if(y-m.group.position.y>1.05||m.group.position.y-y>1.35)return null;
-      // Do not walk into tree trunks, walls, or closed solid blocks.
-      for(const h of [.20,.80,1.25])if(isSolidBlock(world.get(k3(x,Math.floor(y+h),z))))return null;
-      return y;
+      const radius=m.chicken?.25:m.cow?.48:m.sheep?.46:m.pig?.44:.31;
+      const height=m.chicken?1.3:m.cow?1.92:m.sheep?1.72:m.pig?1.55:1.85;
+      const points=[[nx-radius,nz-radius],[nx-radius,nz+radius],[nx+radius,nz-radius],[nx+radius,nz+radius],[nx,nz]];
+      for(const [x,z] of points)if(!chunks.has(ck(Math.floor(x/16),Math.floor(z/16))))return null;
+      const feet=points.map(([x,z])=>groundAt(x,z,m.group.position.y+.75));
+      const high=Math.max(...feet),low=Math.min(...feet);
+      if(high-low>.65||high>m.group.position.y+.70||high<m.group.position.y-1.05)return null;
+      const minX=Math.floor(nx-radius),maxX=Math.floor(nx+radius),minZ=Math.floor(nz-radius),maxZ=Math.floor(nz+radius);
+      for(let x=minX;x<=maxX;x++)for(let z=minZ;z<=maxZ;z++)for(let y=Math.floor(high+.07);y<=Math.floor(high+height-.06);y++){
+        if(isSolidBlock(world.get(k3(x,y,z))))return null;
+      }
+      return high;
     }
     function mobMoveTowards(m,dx,dz,speed,dt){
       const length=Math.hypot(dx,dz);if(length<.001)return false;
       const ux=dx/length,uz=dz/length;
-      const nx=m.group.position.x+ux*speed*dt,nz=m.group.position.z+uz*speed*dt;
-      const nextY=mobCanWalk(m,nx,nz);
-      if(nextY===null)return false;
-      m.group.position.x=nx;m.group.position.z=nz;
-      m.group.position.y=THREE.MathUtils.lerp(m.group.position.y,nextY,Math.min(1,dt*12));
+      const count=Math.max(1,Math.ceil(speed*dt/.16));let moved=false;
+      for(let i=0;i<count;i++){const nx=m.group.position.x+ux*speed*dt/count,nz=m.group.position.z+uz*speed*dt/count;
+        const nextY=mobCanWalk(m,nx,nz);if(nextY===null)break;
+        m.group.position.x=nx;m.group.position.z=nz;
+        m.group.position.y=THREE.MathUtils.lerp(m.group.position.y,nextY,Math.min(1,dt*12));moved=true;}
+      if(!moved)return false;
       const heading=Math.atan2(-ux,-uz),diff=Math.atan2(Math.sin(heading-m.group.rotation.y),Math.cos(heading-m.group.rotation.y));
       m.group.rotation.y+=diff*Math.min(1,dt*8);
       return true;
@@ -1186,6 +1366,23 @@ function updateDroppedItems(dt){
     async function dbPut(store,value){return dbOperation(store,'readwrite',os=>os.put(value));}
     async function dbDelete(store,key){return dbOperation(store,'readwrite',os=>os.delete(key));}
     async function dbAll(store){const db=await dbOpen();return new Promise((resolve,reject)=>{const tx=db.transaction(store,'readonly'),r=tx.objectStore(store).getAll();r.onsuccess=()=>resolve(r.result||[]);r.onerror=()=>reject(r.error);tx.oncomplete=()=>db.close();});}
+    function applyUserPreferences(prefs){
+      if(!prefs||typeof prefs!=='object')return;
+      renderDistance=Number.isFinite(prefs.renderDistance)?Math.max(1,Math.min(20,Math.round(prefs.renderDistance))):renderDistance;
+      fov=Number.isFinite(prefs.fov)?Math.max(60,Math.min(110,prefs.fov)):fov;
+      sensitivity=Number.isFinite(prefs.sensitivity)?Math.max(.2,Math.min(3,prefs.sensitivity)):sensitivity;
+      quality=['Low','Medium','High'].includes(prefs.quality)?prefs.quality:quality;
+      if(prefs.keybinds&&typeof prefs.keybinds==='object')for(const key of Object.keys(defaultKeybinds)){
+        const binding=prefs.keybinds[key];if(typeof binding==='string'&&/^(Key[A-Z]|Digit[0-9]|Control(Left|Right)|Shift(Left|Right)|Space|Arrow(Up|Down|Left|Right)|Slash|Alt(Left|Right))$/.test(binding))keybinds[key]=binding;
+      }
+      camera.fov=fov;camera.updateProjectionMatrix();renderer.setPixelRatio(Math.min(devicePixelRatio,quality==='Low'?.55:quality==='Medium'?.8:1));renderer.setSize(innerWidth,innerHeight);
+    }
+    async function saveUserPreferences(){if(!currentAccount)return;
+      try{const a=await dbGet('accounts',currentAccount);if(!a)return;
+        a.preferences={renderDistance,fov,sensitivity,quality,keybinds:{...keybinds}};
+        a.avatar=avatarChoice;a.appearance={...avatarAppearance};await dbPut('accounts',a);
+      }catch(err){showToast('Settings not saved',err?.message||'Browser storage is unavailable.');}
+    }
     function validAccount(s){return /^[a-zA-Z0-9_]{3,16}$/.test(s);}
     async function passwordHash(password,salt){
       if(!crypto.subtle)throw Error('Password hashing needs a secure HTTPS page.');
@@ -1198,7 +1395,7 @@ function updateDroppedItems(dt){
       async function submit(create){const n=name.value.trim(),p=pw.value;if(!validAccount(n))return showMenuMessage('Use 3-16 letters, digits or underscores.');if(p.length<8||p.length>128)return showMenuMessage('Password must contain 8-128 characters.');
         login.disabled=register.disabled=true;
         try{let a=await dbGet('accounts',n.toLowerCase());if(create){if(a)throw Error('That account already exists on this browser.');const salt=Array.from(crypto.getRandomValues(new Uint8Array(16)));a={name:n.toLowerCase(),display:n,salt,hash:await passwordHash(p,salt),avatar:'Steve',appearance:null,created:Date.now()};await dbPut('accounts',a);}else{if(!a||await passwordHash(p,a.salt)!==a.hash)throw Error('Incorrect username or password.');}
-          currentAccount=a.name;playerName=a.display||n;applyProfile(playerName,a.avatar||'Steve',a.appearance||avatarAppearance);startPresence();showHome();
+          currentAccount=a.name;playerName=a.display||n;applyUserPreferences(a.preferences);applyProfile(playerName,a.avatar||'Steve',a.appearance||avatarAppearance);startPresence();showHome();
         }catch(e){showMenuMessage(e?.message||'Could not access saved accounts.');}finally{login.disabled=register.disabled=false;pw.value='';}}
       login.onclick=()=>submit(false);register.onclick=()=>submit(true);pw.onkeydown=e=>{if(e.key==='Enter')submit(false);};
     }
@@ -1208,7 +1405,7 @@ function updateDroppedItems(dt){
         seed,difficulty,gameMode,weather,worldTime,dayLength,mobsEnabled,pvpEnabled,chatEnabled,keepInventory,
         mods:[...mods.entries()],chests:[...chestInventories.entries()],
         inventory:inventory.map(x=>x?{...x}:null),armour:{...armour},offhand:offhand?{...offhand}:null,
-        hp,hunger,pos:{x:player.position.x,y:player.position.y,z:player.position.z},yaw,pitch,
+        hp:deathPending?20:hp,hunger,pos:deathPending?{...spawnPoint}:{x:player.position.x,y:player.position.y,z:player.position.z},yaw,pitch,
         created:activeWorldCreated||Date.now(),updated:Date.now()};
       lastSaveAt=Date.now();return dbPut('worlds',snapshot).catch(e=>{
         showToast('Save failed',e?.message||'Storage is full or blocked.');
@@ -1283,6 +1480,13 @@ function updateDroppedItems(dt){
       if(msg.type==='party_roster'&&partyState==='member'&&partyConn===conn){partyLeader=String(msg.leader||partyLeader);partyMembers=new Map((msg.members||[]).map(n=>[String(n).toLowerCase(),{name:n}]));return;}
       if(msg.type==='party_world'&&partyState==='member'&&partyConn===conn){const code=String(msg.code||'');if(!code||code===roomCode)return;saveCurrentWorld();if(running){running=false;disconnect();}ensurePeer(()=>joinServer(code));showToast('Party','Connecting to the leader’s world.');return;}
     }
+    const partyHud=document.createElement('div');partyHud.className='fm-party-status';partyHud.style.cssText='position:absolute;top:14px;right:15px;z-index:12;color:white;pointer-events:none;min-width:145px;display:none;background:#1d342de6;backdrop-filter:blur(6px)';ROOT.appendChild(partyHud);
+    function updatePartyHud(){if(partyState==='solo'||!running){partyHud.style.display='none';return;}
+      const names=partyState==='leader'?[playerName,...partyMembers.keys()]:[partyLeader,playerName,...partyMembers.keys()].filter((n,i,a)=>a.findIndex(x=>x.toLowerCase()===n.toLowerCase())===i);
+      const count=Math.min(5,names.length);partyHud.style.display='flex';partyHud.replaceChildren();
+      const avatars=document.createElement('span');avatars.style.display='inline-flex';avatars.style.paddingLeft='6px';for(const n of names.slice(0,5)){const avatar=document.createElement('span');avatar.className='fm-party-avatar';avatar.textContent=n.slice(0,1).toUpperCase();avatar.title=n;avatars.appendChild(avatar);}
+      const label=document.createElement('strong');label.textContent=count+'/5';label.style.fontSize='13px';partyHud.append(avatars,label);
+    }
     function showParty(){menu.style.display='flex';const isLeader=partyState==='leader',members=isLeader?[...partyMembers.keys()]:[...partyMembers.keys()];
       menu.innerHTML=`<div class="fm-box" style="width:min(570px,92vw)"><div style="font-size:30px;font-weight:bold">Parties</div><p class="fm-small">Invite online players by their account name. Both players must have FeatherMC open.</p><div class="fm-small" id="fm-party-status"></div><div id="fm-party-list" style="margin:12px 0"></div>${partyState!=='member'?'<label class="fm-label">Player name</label><input id="fm-party-name" class="fm-input" placeholder="Friend username" maxlength="16"><button id="fm-party-invite" class="fm-button">Invite Player</button>':''}${partyState!=='solo'?'<button id="fm-party-leave" class="fm-button fm-secondary">Leave Party / Disband</button>':''}<button id="fm-party-back" class="fm-button fm-secondary">Back</button></div>`;
       menu.querySelector('#fm-party-status').textContent=partyState==='solo'?'Not currently in a party':isLeader?'You are the party leader':`Leader: ${partyLeader}`;
@@ -1296,7 +1500,7 @@ function updateDroppedItems(dt){
     function hexColour(n){return '#'+Number(n>>>0).toString(16).padStart(6,'0').slice(-6);}
     function cleanAppearance(a){const base=avatars.Steve,pick=(v,d)=>Number.isInteger(v)&&v>=0&&v<=0xffffff?v:d;return{shirt:pick(a?.shirt,base.shirt),pants:pick(a?.pants,base.pants),skin:pick(a?.skin,base.skin),cape:a?.cape==null?null:pick(a.cape,0x315fba)};}
     function applyProfile(name,preset,app){playerName=validName(name);avatarChoice=validAvatar(preset);avatarAppearance=cleanAppearance(app);const pos=player.position.clone(),rot=player.rotation.y;scene.remove(player);localAvatar=makeAvatar(playerName,avatarChoice,avatarAppearance);player=localAvatar.group;player.position.copy(pos);player.rotation.y=rot;scene.add(player);player.visible=!firstPerson;updateViewmodel();updatePlayerList();if(isHost)broadcast({type:'profileUpdate',id:playerId,name:playerName,avatar:avatarChoice,appearance:avatarAppearance});else if(peer)sendHost({type:'profile',name:playerName,avatar:avatarChoice,appearance:avatarAppearance});}
-    function readProfile(){const name=menu.querySelector('#fm-profile-name')?.value??playerName,preset=menu.querySelector('#fm-profile-avatar')?.value??avatarChoice;const capeOn=menu.querySelector('#fm-cape-enabled')?.checked??!!avatarAppearance.cape;const app={shirt:parseInt((menu.querySelector('#fm-shirt')?.value||hexColour(avatarAppearance.shirt)).slice(1),16),pants:parseInt((menu.querySelector('#fm-pants')?.value||hexColour(avatarAppearance.pants)).slice(1),16),skin:parseInt((menu.querySelector('#fm-skin')?.value||hexColour(avatarAppearance.skin)).slice(1),16),cape:capeOn?parseInt((menu.querySelector('#fm-cape')?.value||'#315fba').slice(1),16):null};applyProfile(currentAccount?playerName:name,preset,app);if(currentAccount){dbGet('accounts',currentAccount).then(a=>{if(a){a.avatar=avatarChoice;a.appearance=avatarAppearance;return dbPut('accounts',a);}}).catch(()=>{});}} 
+    function readProfile(){const name=menu.querySelector('#fm-profile-name')?.value??playerName,preset=menu.querySelector('#fm-profile-avatar')?.value??avatarChoice;const capeOn=menu.querySelector('#fm-cape-enabled')?.checked??!!avatarAppearance.cape;const app={shirt:parseInt((menu.querySelector('#fm-shirt')?.value||hexColour(avatarAppearance.shirt)).slice(1),16),pants:parseInt((menu.querySelector('#fm-pants')?.value||hexColour(avatarAppearance.pants)).slice(1),16),skin:parseInt((menu.querySelector('#fm-skin')?.value||hexColour(avatarAppearance.skin)).slice(1),16),cape:capeOn?parseInt((menu.querySelector('#fm-cape')?.value||'#315fba').slice(1),16):null};applyProfile(currentAccount?playerName:name,preset,app);if(currentAccount)saveUserPreferences();} 
     function profileFields(){return '';}
 
     function showHome(){menu.style.display='flex';const connected=!!peer&&running;menu.innerHTML=`<div class="fm-box"><div class="fm-logo">FeatherMC</div><p style="text-align:center;margin-top:-12px;color:#aec8ac">Welcome, ${escapeHTML(playerName)}</p>${connected?'<button class="fm-button" id="fm-return">Return to Server</button>':'<button class="fm-button" id="fm-single">Singleplayer & Saved Worlds</button><button class="fm-button" id="fm-multi">Multiplayer</button>'}<button class="fm-button fm-secondary" id="fm-party">Parties</button><button class="fm-button fm-secondary" id="fm-settings">Settings</button><button class="fm-button fm-secondary" id="fm-logout">Log Out</button><button class="fm-button fm-secondary" id="fm-exit">Exit Game</button></div>`;
@@ -1309,8 +1513,8 @@ function updateDroppedItems(dt){
     function showHostForm(){menu.style.display='flex';menu.innerHTML=`<div class="fm-box"><div style="font-size:27px;font-weight:bold">Create Server</div><label class="fm-label">World name</label><input class="fm-input" id="fm-world" value="My World"><label class="fm-label">Seed</label><input class="fm-input" id="fm-seed" value="${Math.floor(Math.random()*9999999)}">${profileFields()}<label class="fm-label">Difficulty</label><select class="fm-input" id="fm-diff"><option>Peaceful</option><option>Easy</option><option selected>Normal</option><option>Hard</option></select><div class="fm-row"><label class="fm-label"><input type="checkbox" id="fm-mobs" checked> Mobs</label><label class="fm-label"><input type="checkbox" id="fm-pvp"> PvP</label><label class="fm-label"><input type="checkbox" id="fm-chat" checked> Chat</label></div><label class="fm-label"><input type="checkbox" id="fm-keep"> Keep Inventory on Death</label><button class="fm-button" id="fm-create">Create Server</button><button class="fm-button fm-secondary" id="fm-back">Back</button><div class="fm-small">A unique server ID will be generated automatically.</div></div>`;menu.querySelector('#fm-back').onclick=showMultiplayer;menu.querySelector('#fm-create').onclick=()=>startNewWorld('server',{name:menu.querySelector('#fm-world').value,seed:menu.querySelector('#fm-seed').value.trim(),difficulty:menu.querySelector('#fm-diff').value,mobs:menu.querySelector('#fm-mobs').checked,pvp:menu.querySelector('#fm-pvp').checked,chat:menu.querySelector('#fm-chat').checked,keepInventory:menu.querySelector('#fm-keep').checked});}
     function showJoinForm(){menu.style.display='flex';menu.innerHTML=`<div class="fm-box"><div style="font-size:27px;font-weight:bold">Join Server</div><label class="fm-label">Server ID</label><input class="fm-input" id="fm-code" maxlength="100" placeholder="e.g. AB">${profileFields()}<button class="fm-button" id="fm-join">Join</button><button class="fm-button fm-secondary" id="fm-back">Back</button></div>`;menu.querySelector('#fm-back').onclick=showMultiplayer;menu.querySelector('#fm-join').onclick=()=>{const code=menu.querySelector('#fm-code').value.trim();if(!(/^[a-zA-Z]{2}$/.test(code)||code.length>=5&&code.length<=100)){showMenuMessage('Enter the two-letter server ID (or a legacy full ID).');return;}readProfile();menu.querySelector('#fm-join').disabled=true;menu.querySelector('#fm-join').textContent='Connecting...';ensurePeer(()=>joinServer(code));};}
     function displayKey(code){return ({Space:'SPACE',ShiftLeft:'LEFT SHIFT',ShiftRight:'RIGHT SHIFT',ControlLeft:'LEFT CTRL',ControlRight:'RIGHT CTRL',AltLeft:'LEFT ALT',AltRight:'RIGHT ALT',Slash:'/'}[code]||String(code).replace(/^Key/,'').replace(/^Digit/,'').replace(/^Arrow/,'ARROW '));}
-    function showSettings(from){settingsReturn=from;menu.style.display='flex';const labels={forward:'Move forward',back:'Move backward',left:'Move left',right:'Move right',jump:'Jump',sprint:'Sprint',crouch:'Crouch',inventory:'Inventory',chat:'Chat'};menu.innerHTML=`<div class="fm-box"><div style="font-size:28px;font-weight:bold">Settings</div><label class="fm-label">Render distance: <b id="fm-rv">${renderDistance}</b> chunks</label><input class="fm-input" id="fm-r" type="range" min="1" max="20" value="${renderDistance}"><div class="fm-small">Beyond 7 chunks, distant scenery uses low-detail terrain for better laptop performance.</div><label class="fm-label">Field of view: <b id="fm-fv">${fov}</b></label><input class="fm-input" id="fm-f" type="range" min="60" max="110" value="${fov}"><label class="fm-label">Mouse sensitivity: <b id="fm-sv">${sensitivity.toFixed(1)}</b></label><input class="fm-input" id="fm-s" type="range" min=".2" max="3" step=".1" value="${sensitivity}"><label class="fm-label">Graphics quality</label><select class="fm-input" id="fm-q"><option ${quality==='Low'?'selected':''}>Low</option><option ${quality==='Medium'?'selected':''}>Medium</option><option ${quality==='High'?'selected':''}>High</option></select><label class="fm-label">Weather</label><select class="fm-input" id="fm-weather"><option ${weather==='Clear'?'selected':''}>Clear</option><option ${weather==='Rain'?'selected':''}>Rain</option></select><label class="fm-label">Day length (seconds)</label><input class="fm-input" id="fm-day" type="range" min="120" max="1200" step="60" value="${dayLength}"><hr style="border-color:#58645b;margin:18px 0"><b>Personal</b><label class="fm-label">Player name</label><input class="fm-input" id="fm-profile-name" maxlength="18" disabled title="Your account name cannot be changed" value="${escapeHTML(playerName)}"><label class="fm-label">Avatar style</label><select class="fm-input" id="fm-profile-avatar">${Object.keys(avatars).map(a=>`<option ${a===avatarChoice?'selected':''}>${a}</option>`).join('')}</select><div class="fm-row"><label class="fm-label">Skin<input type="color" class="fm-input" id="fm-skin" value="${hexColour(avatarAppearance.skin)}"></label><label class="fm-label">Shirt<input type="color" class="fm-input" id="fm-shirt" value="${hexColour(avatarAppearance.shirt)}"></label></div><div class="fm-row"><label class="fm-label">Trousers<input type="color" class="fm-input" id="fm-pants" value="${hexColour(avatarAppearance.pants)}"></label><label class="fm-label">Cape<input type="color" class="fm-input" id="fm-cape" value="${hexColour(avatarAppearance.cape||0x315fba)}"></label></div><label class="fm-label"><input type="checkbox" id="fm-cape-enabled" ${avatarAppearance.cape?'checked':''}> Wear cape</label><hr style="border-color:#58645b;margin:18px 0"><b>Controls</b><div class="fm-small">Click a control, then press the key you want to use. Laptop trackpads: two-finger tap is right-click; hold right-click to drag items.</div><div id="fm-bindings" style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px">${Object.entries(labels).map(([k,label])=>`<button class="fm-button fm-secondary" data-bind="${k}" style="margin:0;padding:9px;font-size:12px">${label}: ${displayKey(keybinds[k])}</button>`).join('')}</div><button class="fm-button fm-secondary" id="fm-reset">Reset keybinds</button><button class="fm-button" id="fm-done">Done</button></div>`;const r=menu.querySelector('#fm-r'),f=menu.querySelector('#fm-f'),ss=menu.querySelector('#fm-s');r.oninput=()=>{renderDistance=+r.value;menu.querySelector('#fm-rv').textContent=r.value;if(running){lastChunkX=null;updateChunks(true);}};f.oninput=()=>{fov=+f.value;camera.fov=fov;camera.updateProjectionMatrix();menu.querySelector('#fm-fv').textContent=fov;};ss.oninput=()=>{sensitivity=+ss.value;menu.querySelector('#fm-sv').textContent=sensitivity.toFixed(1);};menu.querySelectorAll('[data-bind]').forEach(button=>button.onclick=()=>{waitingBind=button.dataset.bind;button.textContent=`${labels[waitingBind]}: press a key...`;});menu.querySelector('#fm-reset').onclick=()=>{Object.assign(keybinds,defaultKeybinds);showSettings(from);};menu.querySelector('#fm-done').onclick=()=>{quality=menu.querySelector('#fm-q').value;renderer.setPixelRatio(Math.min(devicePixelRatio,quality==='Low'?.55:quality==='Medium'?.8:1));renderer.setSize(innerWidth,innerHeight);weather=menu.querySelector('#fm-weather').value;dayLength=+menu.querySelector('#fm-day').value;readProfile();if(isHost)broadcast({type:'worldSettings',weather,worldTime,dayLength});waitingBind=null;if(from==='pause')showPause();else if(from==='home'&&running)showHome();else if(running){paused=false;menu.style.display='none';}else showHome();};}
-    function showPause(){paused=true;held.left=false;held.right=false;document.exitPointerLock?.();menu.style.display='flex';menu.innerHTML=`<div class="fm-box"><div style="font-size:34px;font-weight:bold">Paused</div>${isHost?`<div class="fm-small">Server ID: <b>${roomCode}</b></div>`:''}<button class="fm-button" id="fm-resume">Resume</button><button class="fm-button fm-secondary" id="fm-settings">Settings</button>${isHost?'<button class="fm-button fm-secondary" id="fm-kick">Remove other player</button><button class="fm-button fm-secondary" id="fm-modes">Player Game Modes</button>':''}<button class="fm-button fm-secondary" id="fm-party">Parties</button><button class="fm-button fm-secondary" id="fm-save">Save World</button><button class="fm-button fm-secondary" id="fm-home">Save & Main Menu</button><button class="fm-button fm-secondary" id="fm-exit">Exit Game</button></div>`;menu.querySelector('#fm-resume').onclick=()=>{paused=false;menu.style.display='none';try{renderer.domElement.requestPointerLock();}catch(e){}};menu.querySelector('#fm-settings').onclick=()=>showSettings('pause');menu.querySelector('#fm-modes')?.addEventListener('click',showGameModePanel);menu.querySelector('#fm-party').onclick=showParty;menu.querySelector('#fm-save').onclick=async()=>{await saveCurrentWorld();showToast('World saved',worldName);};menu.querySelector('#fm-home').onclick=async()=>{held.left=false;held.right=false;paused=true;document.exitPointerLock?.();await saveCurrentWorld();if(isHost)broadcast({type:'closed'});disconnect();running=false;showHome();};menu.querySelector('#fm-exit').onclick=async()=>{await saveCurrentWorld();if(isHost)broadcast({type:'closed'});cleanup();ROOT.remove();};menu.querySelector('#fm-kick')?.addEventListener('click',()=>{for(const [id,c] of connections){c.send({type:'kicked'});c.close();connections.delete(id);removeRemote(id);}showToast('Server','Other player removed.');});}
+    function showSettings(from){settingsReturn=from;menu.style.display='flex';const labels={forward:'Move forward',back:'Move backward',left:'Move left',right:'Move right',jump:'Jump',sprint:'Sprint',crouch:'Crouch',inventory:'Inventory',chat:'Chat'};menu.innerHTML=`<div class="fm-box"><div style="font-size:28px;font-weight:bold">Settings</div><label class="fm-label">Render distance: <b id="fm-rv">${renderDistance}</b> chunks</label><input class="fm-input" id="fm-r" type="range" min="1" max="20" value="${renderDistance}"><label class="fm-label">Field of view: <b id="fm-fv">${fov}</b></label><input class="fm-input" id="fm-f" type="range" min="60" max="110" value="${fov}"><label class="fm-label">Mouse sensitivity: <b id="fm-sv">${sensitivity.toFixed(1)}</b></label><input class="fm-input" id="fm-s" type="range" min=".2" max="3" step=".1" value="${sensitivity}"><label class="fm-label">Graphics quality</label><select class="fm-input" id="fm-q"><option ${quality==='Low'?'selected':''}>Low</option><option ${quality==='Medium'?'selected':''}>Medium</option><option ${quality==='High'?'selected':''}>High</option></select><hr style="border-color:#58645b;margin:18px 0"><b>Personal</b><label class="fm-label">Player name</label><input class="fm-input" id="fm-profile-name" maxlength="18" disabled title="Your account name cannot be changed" value="${escapeHTML(playerName)}"><label class="fm-label">Avatar style</label><select class="fm-input" id="fm-profile-avatar">${Object.keys(avatars).map(a=>`<option ${a===avatarChoice?'selected':''}>${a}</option>`).join('')}</select><div class="fm-row"><label class="fm-label">Skin<input type="color" class="fm-input" id="fm-skin" value="${hexColour(avatarAppearance.skin)}"></label><label class="fm-label">Shirt<input type="color" class="fm-input" id="fm-shirt" value="${hexColour(avatarAppearance.shirt)}"></label></div><div class="fm-row"><label class="fm-label">Trousers<input type="color" class="fm-input" id="fm-pants" value="${hexColour(avatarAppearance.pants)}"></label><label class="fm-label">Cape<input type="color" class="fm-input" id="fm-cape" value="${hexColour(avatarAppearance.cape||0x315fba)}"></label></div><label class="fm-label"><input type="checkbox" id="fm-cape-enabled" ${avatarAppearance.cape?'checked':''}> Wear cape</label><hr style="border-color:#58645b;margin:18px 0"><b>Controls</b><div class="fm-small">Click a control, then press the key you want to use. Laptop trackpads: two-finger tap is right-click; hold right-click to drag items.</div><div id="fm-bindings" style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px">${Object.entries(labels).map(([k,label])=>`<button class="fm-button fm-secondary" data-bind="${k}" style="margin:0;padding:9px;font-size:12px">${label}: ${displayKey(keybinds[k])}</button>`).join('')}</div><button class="fm-button fm-secondary" id="fm-reset">Reset keybinds</button><button class="fm-button" id="fm-done">Done</button></div>`;const r=menu.querySelector('#fm-r'),f=menu.querySelector('#fm-f'),ss=menu.querySelector('#fm-s');r.oninput=()=>{renderDistance=+r.value;menu.querySelector('#fm-rv').textContent=r.value;if(running){lastChunkX=null;updateChunks(true);}};f.oninput=()=>{fov=+f.value;camera.fov=fov;camera.updateProjectionMatrix();menu.querySelector('#fm-fv').textContent=fov;};ss.oninput=()=>{sensitivity=+ss.value;menu.querySelector('#fm-sv').textContent=sensitivity.toFixed(1);};menu.querySelectorAll('[data-bind]').forEach(button=>button.onclick=()=>{waitingBind=button.dataset.bind;button.textContent=`${labels[waitingBind]}: press a key...`;});menu.querySelector('#fm-reset').onclick=()=>{Object.assign(keybinds,defaultKeybinds);showSettings(from);};menu.querySelector('#fm-done').onclick=()=>{quality=menu.querySelector('#fm-q').value;renderer.setPixelRatio(Math.min(devicePixelRatio,quality==='Low'?.55:quality==='Medium'?.8:1));renderer.setSize(innerWidth,innerHeight);readProfile();waitingBind=null;if(from==='pause')showPause();else if(from==='home'&&running)showHome();else if(running){paused=false;menu.style.display='none';}else showHome();};}
+    function showPause(){if(deathPending)return;paused=true;held.left=false;held.right=false;document.exitPointerLock?.();menu.style.display='flex';menu.innerHTML=`<div class="fm-box"><div style="font-size:34px;font-weight:bold">Paused</div>${isHost?`<div class="fm-small">Server ID: <b>${roomCode}</b></div>`:''}<button class="fm-button" id="fm-resume">Resume</button><button class="fm-button fm-secondary" id="fm-settings">Settings</button>${isHost?'<button class="fm-button fm-secondary" id="fm-kick">Remove other player</button><button class="fm-button fm-secondary" id="fm-modes">Player Game Modes</button>':''}<button class="fm-button fm-secondary" id="fm-party">Parties</button><button class="fm-button fm-secondary" id="fm-save">Save World</button><button class="fm-button fm-secondary" id="fm-home">Save & Main Menu</button><button class="fm-button fm-secondary" id="fm-exit">Exit Game</button></div>`;menu.querySelector('#fm-resume').onclick=()=>{paused=false;menu.style.display='none';try{renderer.domElement.requestPointerLock();}catch(e){}};menu.querySelector('#fm-settings').onclick=()=>showSettings('pause');menu.querySelector('#fm-modes')?.addEventListener('click',showGameModePanel);menu.querySelector('#fm-party').onclick=showParty;menu.querySelector('#fm-save').onclick=async()=>{await saveCurrentWorld();showToast('World saved',worldName);};menu.querySelector('#fm-home').onclick=async()=>{held.left=false;held.right=false;paused=true;document.exitPointerLock?.();await saveCurrentWorld();if(isHost)broadcast({type:'closed'});disconnect();running=false;showHome();};menu.querySelector('#fm-exit').onclick=async()=>{await saveCurrentWorld();if(isHost)broadcast({type:'closed'});cleanup();ROOT.remove();};menu.querySelector('#fm-kick')?.addEventListener('click',()=>{for(const [id,c] of connections){c.send({type:'kicked'});c.close();connections.delete(id);removeRemote(id);}showToast('Server','Other player removed.');});}
 
     function showGameModePanel(){if(!isHost){showPause();return;}paused=true;menu.style.display='flex';menu.innerHTML=`<div class="fm-box"><h2>Player Game Modes</h2><div class="fm-small">Only the world host can change multiplayer modes.</div><div id="fm-mode-list"></div><button class="fm-button fm-secondary" id="fm-mode-back">Back</button></div>`;const container=menu.querySelector('#fm-mode-list');const roster=[[playerId,playerName,gameMode],...[...remotePlayers].map(([id,r])=>[id,r.model.name,r.serverMode||'Survival'])];for(const [id,name,mode] of roster){const row=document.createElement('div');row.className='fm-row';row.style.cssText='align-items:center;padding:6px 0;border-bottom:1px solid #777';const text=document.createElement('span');text.textContent=`${name} · ${mode}`;const creative=document.createElement('button');creative.className='fm-button';creative.style.padding='8px';creative.textContent='Creative';creative.onclick=()=>{runServerCommand(playerId,`/creative ${name}`);showGameModePanel();};const survival=document.createElement('button');survival.className='fm-button fm-secondary';survival.style.padding='8px';survival.textContent='Survival';survival.onclick=()=>{runServerCommand(playerId,`/uncreative ${name}`);showGameModePanel();};row.append(text,creative,survival);container.appendChild(row);}menu.querySelector('#fm-mode-back').onclick=showPause;}
     // Network setup and game start
@@ -1342,7 +1546,7 @@ function updateDroppedItems(dt){
       peer.on('open',id=>{playerId=id;hostConn=peer.connect(/^[A-Z]{2}$/.test(roomCode)?'feathermc-room-'+roomCode:code,{reliable:true,serialization:'json'});let welcomed=false;hostConn.on('open',()=>hostConn.send({type:'hello',name:playerName,avatar:avatarChoice,appearance:avatarAppearance}));hostConn.on('data',msg=>{if(msg?.type==='welcome')welcomed=true;handleNetwork('host',msg);});hostConn.on('close',()=>{if(running){running=false;showToast('Disconnected','The host left the server.');setTimeout(()=>{disconnect();showHome();},900);}});hostConn.on('error',e=>showMenuMessage(`Connection failed: ${e?.type||'network error'}`));setTimeout(()=>{if(!welcomed&&hostConn&&!hostConn.open){disconnect();showMenuMessage('Could not connect. Check the full server ID and network access.');}},12000);});
       peer.on('error',e=>{const type=e?.type||'unknown';if(type==='network'||type==='socket-error'||type==='server-error')showMenuMessage('The school network may be blocking PeerJS/WebRTC.');else showMenuMessage(`Connection error: ${type}`);});
     }
-    function clearWorld(){for(const key of [...farTerrain.keys()])removeFarTerrain(key);farTerrainQueue.length=0;farQueuedKeys.clear();desiredFarKeys.clear();for(const t of primedTnt.values()){scene.remove(t.mesh);t.mesh.geometry.dispose();t.mesh.material.dispose();}primedTnt.clear();sleepingPlayers.clear();playerSleeping=false;optimisticPlacements.clear();optimisticMines.clear();pickupRequests.clear();activeChunkBuild=null;activeChunkKey=null;activeMeshBuild=null;activeMeshKey=null;fluidQueue.length=0;fluidQueued.clear();flowDepth.clear();chunkQueue.length=0;queuedChunkKeys.clear();dirtyChunkQueue.length=0;dirtyChunkKeys.clear();desiredChunkKeys.clear();sandCandidateKeys.clear();sandCandidateList=[];sandCursor=0;fallingSandQueue.length=0;fallingSandQueued.clear();for(const c of chunks.values())disposeChunk(c);chunks.clear();world.clear();for(const id of [...droppedItems.keys()])removeDroppedItem(id);chestInventories.clear();openChestKey=null;for(const id of [...mobs.keys()])removeMob(id);for(const id of [...remotePlayers.keys()])removeRemote(id);lastChunkX=null;lastChunkZ=null;}
+    function clearWorld(){deathPending=false;deathRespawnTarget=null;deathOverlay.style.display='none';for(const key of [...farTerrain.keys()])removeFarTerrain(key);farTerrainQueue.length=0;farQueuedKeys.clear();desiredFarKeys.clear();for(const t of primedTnt.values()){scene.remove(t.mesh);t.mesh.geometry.dispose();t.mesh.material.dispose();}primedTnt.clear();sleepingPlayers.clear();playerSleeping=false;optimisticPlacements.clear();optimisticMines.clear();pickupRequests.clear();activeChunkBuild=null;activeChunkKey=null;activeMeshBuild=null;activeMeshKey=null;fluidQueue.length=0;fluidQueued.clear();flowDepth.clear();chunkQueue.length=0;queuedChunkKeys.clear();dirtyChunkQueue.length=0;dirtyChunkKeys.clear();desiredChunkKeys.clear();sandCandidateKeys.clear();sandCandidateList=[];sandCursor=0;fallingSandQueue.length=0;fallingSandQueued.clear();for(const c of chunks.values())disposeChunk(c);chunks.clear();world.clear();for(const id of [...droppedItems.keys()])removeDroppedItem(id);chestInventories.clear();chestVersions.clear();chestLastAction.clear();chestPending=null;openChestKey=null;for(const id of [...mobs.keys()])removeMob(id);for(const id of [...remotePlayers.keys()])removeRemote(id);lastChunkX=null;lastChunkZ=null;}
     function startWorld(opts={}){if(isHost)networkHostId=playerId;seedHash=hashSeed(seed);clearWorld();if(opts.network){for(const e of opts.chests||[])chestInventories.set(e[0],e[1]);for(const d of opts.drops||[])makeDropVisual(d);}inventory.fill(null);craftingGrid.fill(null);cursorStack=null;openWorkbench=false;unlocked.clear();minedCount=0;hp=20;hunger=20;oxygen=15;drownTimer=0;regenTimer=0;lastAirDisplay=-1;updateAirHud(false);if(!opts.network)mods.clear();else for(const e of opts.mods||[])mods.set(e[0],e[1]);if(opts.restore)for(const [key,type] of opts.restore.mods||[])mods.set(key,type);if(opts.restore?.pos)player.position.set(opts.restore.pos.x,opts.restore.pos.y,opts.restore.pos.z);else player.position.set(.5,18,.5);yaw=opts.restore?.yaw??0;pitch=opts.restore?.pitch??.12;velocityY=0;grounded=false;fallPeakY=18;firstPerson=true;cameraDistance=7;player.visible=false;updateChunks(true);if(!opts.restore?.pos)player.position.y=floorAt(.5,.5);spawnPoint={x:player.position.x,y:player.position.y,z:player.position.z};if(opts.network){const hostPlayer=(opts.players||[]).find(p=>p.id!==playerId);for(const p of opts.players||[]){if(p.id===playerId)continue;const r=addRemote(p.id,{name:p.name,avatar:p.avatar,appearance:p.appearance});r.state={...p};pose(r.model,r.state);}if(hostPlayer){player.position.set(hostPlayer.x+2,hostPlayer.y,hostPlayer.z);updateChunks();player.position.y=floorAt(player.position.x,player.position.z);spawnPoint={x:player.position.x,y:player.position.y,z:player.position.z};}syncMobs(opts.mobs||[]);}else spawnMobs();if(opts.restore){for(let i=0;i<inventory.length;i++)inventory[i]=opts.restore.inventory?.[i]||null;armour={head:null,chest:null,legs:null,feet:null,...(opts.restore.armour||{})};offhand=opts.restore.offhand||null;hp=Number.isFinite(opts.restore.hp)?opts.restore.hp:20;hunger=Number.isFinite(opts.restore.hunger)?opts.restore.hunger:20;for(const [key,data] of opts.restore.chests||[])chestInventories.set(key,data);}running=true;paused=false;inventoryOpen=false;chatOpen=false;menu.style.display='none';invOverlay.style.display='none';updateHotbar();updateHealth();info.textContent=isHost?`Server ID: ${roomCode}`:roomCode?`Server: ${roomCode}`:'';try{const lock=renderer.domElement.requestPointerLock();lock?.catch?.(()=>showLockHint());}catch(e){showLockHint();}clock.start();}
     let lockHint=null;
     function showLockHint(){
@@ -1360,9 +1564,9 @@ function updateDroppedItems(dt){
     function openChat(initial=''){if(!running||paused||inventoryOpen||!chatEnabled)return;chatOpen=true;held.left=false;held.right=false;document.exitPointerLock?.();chatInput.style.display='block';chatInput.value=initial;chatInput.focus();}
     function keyDown(e){
       if(waitingBind){e.preventDefault();if(!['Escape','Tab'].includes(e.key)){keybinds[waitingBind]=e.code;waitingBind=null;showSettings(settingsReturn);}return;}
-      if(!running)return;if(e.code==='Tab'){e.preventDefault();if(!paused&&!inventoryOpen&&!chatOpen){updatePlayerList();playerListHud.style.display='block';}return;}
-      if(e.code==='Escape'){e.preventDefault();if(inventoryOpen)closeInventory();else if(chatOpen){chatOpen=false;chatInput.style.display='none';}else if(!paused)showPause();return;}
-      if(e.code===keybinds.inventory&&inventoryOpen){closeInventory();return;}
+      if(!running)return;if(deathPending){if(['Escape','KeyE','Tab'].includes(e.code))e.preventDefault();return;}if(e.code==='Tab'){e.preventDefault();if(!paused&&!inventoryOpen&&!chatOpen){updatePlayerList();playerListHud.style.display='block';}return;}
+      if(e.code==='Escape'){e.preventDefault();if(inventoryOpen&&chestOverlay.style.display==='flex')closeChest();else if(inventoryOpen)closeInventory();else if(chatOpen){chatOpen=false;chatInput.style.display='none';}else if(!paused)showPause();return;}
+      if(e.code===keybinds.inventory&&inventoryOpen){if(chestOverlay.style.display==='flex')closeChest();else closeInventory();return;}
       if(paused||inventoryOpen||chatOpen)return;
       keys[e.code]=true;
       if(keybinds.crouch==='ShiftLeft'&&e.code==='ShiftRight')keys.ShiftLeft=true;
@@ -1410,14 +1614,14 @@ function updateDroppedItems(dt){
     let aimBlockCache=null,aimMobCache=null,aimCacheAt=0;function refreshAimCache(){const now=performance.now();if(now-aimCacheAt<55)return;aimCacheAt=now;aimBlockCache=targetBlock();aimMobCache=targetMob();}
     function miningDuration(type){const tool=inventory[selectedSlot]?.id;let n={grass:.38,dirt:.38,sand:.3,stone:1.25,iron_ore:1.5,diamond_ore:1.7,coal_ore:.95,oak_log:.82,oak_leaves:.2,oak_planks:.55,crafting_table:.55,furnace:.55,chest:.55}[type]||.5;const pick=['wooden_pickaxe','stone_pickaxe','iron_pickaxe','diamond_pickaxe'];if(['stone','iron_ore','diamond_ore','coal_ore','furnace'].includes(type)&&pick.includes(tool))n*=tool==='wooden_pickaxe'?.65:tool==='stone_pickaxe'?.48:tool==='iron_pickaxe'?.32:.22;if(type==='oak_log'&&['wooden_axe','stone_axe','iron_axe','diamond_axe'].includes(tool))n=tool==='wooden_axe'?.36:tool==='stone_axe'?.29:tool==='iron_axe'?.22:.16;if(type==='oak_planks'&&['wooden_axe','stone_axe','iron_axe','diamond_axe'].includes(tool))n*=.45;return n;}
     function mineTarget(t,dt){if(!t||t.type==='water'||t.type==='lava'||t.type==='bedrock'){miningKey=null;miningProgress=0;progressFill.style.width='0%';crackMesh.visible=false;return;}if(pendingMine&&pendingMine!==t.key)pendingMine=null;if(pendingMine===t.key){if(performance.now()-pendingMineAt<1800){progressFill.style.width='100%';return;}pendingMine=null;miningKey=null;miningProgress=0;}if(miningKey!==t.key){miningKey=t.key;miningProgress=0;}const fast=gameMode==='Creative';miningProgress+=dt/(fast?.04:miningDuration(t.type));mineSwingPhase+=dt*13;progressFill.style.width=`${Math.min(100,miningProgress*100)}%`;crackMesh.visible=!fast;crackMesh.position.set(t.x+.5,t.y+.5,t.z+.5);crackMesh.material=crackMats[Math.min(9,Math.floor(miningProgress*10))];if(miningProgress>=1){let sent=false;if(hasAuthority())sent=hostMine(t.x,t.y,t.z,playerId);else if(sendHost({type:'mine',x:t.x,y:t.y,z:t.z})){optimisticMines.set(t.key,{x:t.x,y:t.y,z:t.z,block:t.type,at:performance.now()});changeBlock(t.x,t.y,t.z,null);flushNearbyMesh(t.x,t.z);pendingMine=t.key;pendingMineAt=performance.now();sent=true;}if(!sent){miningKey=null;miningProgress=0;}else if(hasAuthority()){miningKey=null;miningProgress=0;}progressFill.style.width='0%';crackMesh.visible=false;}}
-    function placeTarget(t){if(!t||placeCooldown>0)return;if(t.type==='crafting_table'){openInventory(true);placeCooldown=.20;return;}if(t.type==='red_bed'){tryUseBed(t);placeCooldown=.35;return;}if(t.type==='tnt'&&inventory[selectedSlot]?.id==='flint_and_steel'){if(hasAuthority())primeTNT(t.x,t.y,t.z);else sendHost({type:'igniteTnt',x:t.x,y:t.y,z:t.z});placeCooldown=.5;return;}const s=inventory[selectedSlot];if(!s)return;if(['bucket','water_bucket','lava_bucket'].includes(s.id)){useBucketAt(t);return;}if(!placeable.includes(s.id)||s.id==='water'||s.id==='lava')return;const x=t.x+Math.round(t.normal.x),y=t.y+Math.round(t.normal.y),z=t.z+Math.round(t.normal.z);if(world.has(k3(x,y,z))||overlaps(x,y,z,player.position)||!chunks.has(ck(Math.floor(x/16),Math.floor(z/16))))return;if(hasAuthority())hostPlace(x,y,z,s.id,playerId,selectedSlot);
+    function placeTarget(t){if(!t||placeCooldown>0)return;if(t.type==='crafting_table'){openInventory(true);placeCooldown=.20;return;}if(t.type==='chest'){openChest(t.key);placeCooldown=.20;return;}if(t.type==='red_bed'){tryUseBed(t);placeCooldown=.35;return;}if(t.type==='tnt'&&inventory[selectedSlot]?.id==='flint_and_steel'){if(hasAuthority())primeTNT(t.x,t.y,t.z);else sendHost({type:'igniteTnt',x:t.x,y:t.y,z:t.z});placeCooldown=.5;return;}const s=inventory[selectedSlot];if(!s)return;if(['bucket','water_bucket','lava_bucket'].includes(s.id)){useBucketAt(t);return;}if(!placeable.includes(s.id)||s.id==='water'||s.id==='lava')return;const x=t.x+Math.round(t.normal.x),y=t.y+Math.round(t.normal.y),z=t.z+Math.round(t.normal.z);if(world.has(k3(x,y,z))||overlaps(x,y,z,player.position)||!chunks.has(ck(Math.floor(x/16),Math.floor(z/16))))return;if(hasAuthority())hostPlace(x,y,z,s.id,playerId,selectedSlot);
       else if((sendHost({type:'state',state:playerState()}),sendHost({type:'place',x,y,z,block:s.id,slot:selectedSlot}))){
         // Predict placement locally. The authoritative host can reject and roll it back.
         const key=k3(x,y,z);optimisticPlacements.set(key,{x,y,z,block:s.id,original:world.get(key)||null,slot:selectedSlot,used:gameMode!=='Creative',at:performance.now()});
         changeBlock(x,y,z,s.id);
         if(gameMode!=='Creative'){s.count--;if(s.count<=0)inventory[selectedSlot]=null;updateHotbar();}
       }placeAnim=.22;placeCooldown=.22;}
-    function eatSelected(){if(placeCooldown>0)return false;const s=inventory[selectedSlot];if(!s||!['raw_porkchop','cooked_porkchop'].includes(s.id)||hunger>=20||gameMode==='Creative')return false;hunger=Math.min(20,hunger+(s.id==='cooked_porkchop'?8:3));s.count--;if(s.count<=0)inventory[selectedSlot]=null;updateHotbar();updateHunger();eatAnim=.55;placeCooldown=.55;return true;}
+    function eatSelected(){if(placeCooldown>0)return false;const s=inventory[selectedSlot];if(!s||!['raw_porkchop','cooked_porkchop','apple','golden_apple','enchanted_golden_apple'].includes(s.id)||gameMode==='Creative')return false;if(hunger>=20&&hp>=20)return false;hunger=Math.min(20,hunger+({'raw_porkchop':3,'cooked_porkchop':8,'apple':4,'golden_apple':8,'enchanted_golden_apple':8}[s.id]||3));if(s.id.includes('golden_apple'))hp=Math.min(20,hp+(s.id==='enchanted_golden_apple'?8:4));updateHealth();s.count--;if(s.count<=0)inventory[selectedSlot]=null;updateHotbar();updateHunger();eatAnim=.55;placeCooldown=.55;return true;}
     function tryHit(){const hit=targetMob();if(!hit)return;const mob=hit.object.userData.mob,remoteId=hit.object.userData.remotePlayer;const critical=attackCharge>=.848&&velocityY<-.1&&!keys[keybinds.sprint],weapon=inventory[selectedSlot]?.id||'',sword=weapon.endsWith('_sword');if(mob){if(hasAuthority())damageMob(mob,playerId,critical,sword);else sendHost({type:'hitMob',id:mob.id,critical,sword,charge:attackCharge});}else if(remoteId&&pvpEnabled){if(isHost){const factor=difficulty==='Hard'?1.35:difficulty==='Easy'?.8:1;if(allowAttack(playerId))damageRemote(remoteId,attackDamage(playerId,critical,attackCharge),player.position);}else sendHost({type:'hitPlayer',id:remoteId,critical,sword,charge:attackCharge});}else return;attackCharge=0;attackCooldown=.24;attackAnim=.24;localAvatar.rightArm.rotation.x=-1.35;if(critical)showToast('Critical Hit','');}
 
     function updateFallingSand(dt){
@@ -1457,10 +1661,10 @@ function updateDroppedItems(dt){
       if(lastMobSync>=.30){lastMobSync=0;for(const [id,conn] of connections){const r=remotePlayers.get(id);if(!r||!conn.open)continue;conn.send({type:'mobs',list:mobSnapshot().filter(m=>Math.hypot(m.x-r.state.x,m.z-r.state.z)<=Math.min(ENTITY_MAX_DISTANCE,r.state.entityDistance||48))});}}
     },50);
     function cleanup(){clearInterval(backgroundSimulation);saveCurrentWorld();partyReset();try{presencePeer?.destroy();}catch(e){}running=false;paused=false;fallbackLook=false;document.exitPointerLock?.();disconnect();window.removeEventListener('keydown',keyDown);window.removeEventListener('keyup',keyUp);window.removeEventListener('mouseup',mouseUp);for(const c of chunks.values())disposeChunk(c);renderer.dispose();}
-    let lastRenderAt=0;function frame(){
+    let lastRenderAt=0,lastPartyDraw=0;function frame(){
       if(!ROOT.isConnected)return;requestAnimationFrame(frame);if(!running)return;const now=performance.now(),frameLimit=quality==='Low'?1000/45:quality==='Medium'?1000/60:1000/75;if(now-lastRenderAt<frameLimit)return;lastRenderAt=now;const dt=clock.delta();
       if(!paused){
-        const controlsActive=!paused&&!inventoryOpen&&!chatOpen;
+        const controlsActive=!paused&&!inventoryOpen&&!chatOpen&&!deathPending;
         let f=controlsActive?((keys[keybinds.forward]?1:0)-(keys[keybinds.back]?1:0)):0,s=controlsActive?((keys[keybinds.right]?1:0)-(keys[keybinds.left]?1:0)):0,moving=!!(f||s);const fluid=playerFluid(),sprinting=!!keys[keybinds.sprint]&&!keys[keybinds.crouch]&&hunger>6&&!fluid.water&&!fluid.lava&&f>0;
         if(moving){const len=Math.hypot(f,s);f/=len;s/=len;const crouching=!!keys[keybinds.crouch];const sp=(crouching?1.9:sprinting?6.5:5.2)*(fluid.water?.62:1);const dx=(-Math.sin(yaw)*f+Math.cos(yaw)*s)*sp*dt,dz=(-Math.cos(yaw)*f-Math.sin(yaw)*s)*sp*dt,nx=player.position.x+dx,nz=player.position.z+dz;if(!collides(nx,player.position.y,player.position.z)&&(!crouching||!grounded||floorAt(nx,player.position.z,player.position.y+.15)>=player.position.y-.12))player.position.x=nx;if(!collides(player.position.x,player.position.y,nz)&&(!crouching||!grounded||floorAt(player.position.x,nz,player.position.y+.15)>=player.position.y-.12))player.position.z=nz;walking+=dt*(sprinting?13:10);}
         if(Math.abs(knockbackX)+Math.abs(knockbackZ)>.01){const nx=player.position.x+knockbackX*dt,nz=player.position.z+knockbackZ*dt;if(!collides(nx,player.position.y,player.position.z))player.position.x=nx;if(!collides(player.position.x,player.position.y,nz))player.position.z=nz;knockbackX*=Math.max(0,1-dt*6);knockbackZ*=Math.max(0,1-dt*6);}
@@ -1502,11 +1706,13 @@ function updateDroppedItems(dt){
         optimisticMines.delete(key);
         if(chunks.has(ck(Math.floor(p.x/16),Math.floor(p.z/16)))&&world.get(key)===undefined)changeBlock(p.x,p.y,p.z,p.block);
       }
+      if(chestPending&&now-chestPending.at>4500){chestPending=null;if(openChestKey&&chestOverlay.style.display==='flex')openChest(openChestKey,false);}
       for(const r of remotePlayers.values()){
         const x=r.state.x||0,z=r.state.z||0;
         r.model.group.visible=nearEntity(x,z);
         if(r.model.group.visible)pose(r.model,r.state);
         if(r.hitUntil&&performance.now()>r.hitUntil){setAvatarTint(r.model,false);r.hitUntil=0;}}
+        if(now-lastPartyDraw>700){lastPartyDraw=now;updatePartyHud();}
         if(toastTimer>0){toastTimer-=dt;if(toastTimer<=0)toast.style.display='none';}
       }
       if(running&&activeWorldId&&Date.now()-lastSaveAt>12000)saveCurrentWorld();
